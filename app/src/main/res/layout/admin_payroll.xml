@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+
+        <EditText
+            android:id="@+id/etEmployeeEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Employee Email" />
+
+        <EditText
+            android:id="@+id/etEmployeeName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Employee Full Name" />
+
+        <EditText
+            android:id="@+id/etRole"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Role (e.g. Developer, HR)" />
+
+        <EditText
+            android:id="@+id/etBankAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Bank Account Number" />
+
+
+
+        <EditText
+            android:id="@+id/etBasicSalary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="Basic Salary" />
+
+        <EditText
+            android:id="@+id/etHRA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="HRA" />
+
+        <EditText
+            android:id="@+id/etAllowances"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="Allowances" />
+
+        <EditText
+            android:id="@+id/etDeductions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="Deductions (Tax, PF, etc.)" />
+
+
+
+        <EditText
+            android:id="@+id/etDaysWorked"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Days Worked" />
+
+        <EditText
+            android:id="@+id/etLeavesTaken"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Leaves Taken" />
+
+        <Button
+            android:id="@+id/btnSaveEmployee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Employee Info" />
+
+        <Button
+            android:id="@+id/btnCalculateSalary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate and Generate Payroll"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/btnViewReports"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Payroll Reports"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>

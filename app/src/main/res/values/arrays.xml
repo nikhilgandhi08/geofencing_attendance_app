@@ -1,0 +1,9 @@
+<resources>
+    <string-array name="departments">
+        <item>HR</item>
+        <item>Finance</item>
+        <item>IT</item>
+        <item>Operations</item>
+        <item>Marketing</item>
+    </string-array>
+</resources>

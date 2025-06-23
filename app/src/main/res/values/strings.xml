@@ -1,0 +1,273 @@
+<resources>
+    <string name="app_name">GeoTrack</string>
+
+
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <string name="profile_image_desc">Profile Picture</string>
+    <string name="logout_button_label">Logout</string>
+    <string name="employee_name_label">Name: %1$s</string>
+    <string name="employee_email_label">Email: %1$s</string>
+    <string name="employee_role_label">Role: %1$s</string>
+    <string name="employee_username_label">Username: %1$s</string>
+    <string name="greeting_text">Good Morning, User!</string>
+
+    <!-- Dashboard Screen -->
+    <string name="dashboard_title">Dashboard</string>
+
+    <!-- Attendance Status -->
+    <string name="status_not_checked_in">Status: Not Checked In</string>
+    <string name="status_checked_in">Status: Checked In</string>
+    <string name="status_checked_out">Status: Checked Out</string>
+    <string name="last_check_in_default">Last check-in: --:--</string>
+    <string name="last_check_in_format">Last check-in: %s</string>
+    <string name="last_check_out_format">Last check-out: %s</string>
+
+    <!-- Notifications Section -->
+    <string name="notifications_title">Notifications</string>
+    <string name="no_notifications">No new notifications</string>
+
+    <!-- Map Section -->
+    <string name="map_title">Your Location</string>
+    <string name="location_unavailable">Location unavailable</string>
+
+    <!-- Common Actions -->
+    <string name="check_in">Check In</string>
+    <string name="check_out">Check Out</string>
+    <string name="refresh">Refresh</string>
+
+    <!-- Time Format -->
+    <string name="time_format_12h">hh:mm a</string>
+    <string name="time_format_24h">HH:mm</string>
+    <string name="date_format">MMM dd, yyyy</string>
+    <string name="datetime_format">MMM dd, yyyy hh:mm a</string>
+
+    <!-- Error Messages -->
+    <string name="error_network">Network error. Please check your connection.</string>
+    <string name="error_location_permission">Location permission required</string>
+    <string name="error_general">Something went wrong. Please try again.</string>
+
+    <!-- Success Messages -->
+    <string name="success_check_in">Successfully checked in</string>
+    <string name="success_check_out">Successfully checked out</string>
+
+    <!-- Permissions -->
+    <string name="permission_location_rationale">Location access is required to track your attendance</string>
+
+    <!-- Content Descriptions (for accessibility) -->
+    <string name="cd_attendance_card">Attendance overview card</string>
+    <string name="cd_map_view">Location map view</string>
+    <string name="cd_notification_item">Notification item</string>
+
+    <string name="weekly_hours_icon">Weekly hours icon</string>
+    <string name="monthly_hours_icon">Monthly hours icon</string>
+    <string name="attendance_icon">Attendance icon</string>
+    <string name="profile_picture">Profile picture</string>
+    <string name="view_timesheet">View Timesheet</string>
+    <string name="leave_request">Leave Request</string>
+    <string name="settings">Settings</string>
+    <string name="location_accuracy_icon">Location Accuracy</string>
+    <string name="notification_icon">Notification Icon</string>
+    <string name="take_test">Take Test</string>
+    <string name="notifications">Notifications</string>
+
+    <!--    EMPLOYEE FRAGMENT REPORTS (2) -->
+    <!-- App Name -->
+    <string name="app_name2">Employee Reports</string>
+
+    <!-- Header Section -->
+    <string name="employee_name_placeholder">John Doe</string>
+    <string name="employee_id_placeholder">EMP-2025-001</string>
+    <string name="designation_department_placeholder">Software Engineer • IT Department</string>
+    <string name="report_period_placeholder">May 1 – May 31, 2025</string>
+
+    <!-- KPI Summary -->
+    <string name="kpi_summary">📊 KPI Summary</string>
+    <string name="attendance">Attendance</string>
+    <string name="attendance_percentage_placeholder">85%</string>
+    <string name="avg_hours">Avg Hours</string>
+    <string name="avg_work_hours_placeholder">8.2h</string>
+    <string name="leaves_taken">Leaves Taken</string>
+    <string name="leaves_taken_placeholder">3</string>
+
+    <!-- Visual Reports -->
+    <string name="visual_reports">📈 Visual Reports &amp; Insights</string>
+    <string name="monthly_attendance_trend">📅 Monthly Attendance Trend</string>
+    <string name="login_logout_pattern">🕒 Login–Logout Pattern</string>
+    <string name="chart_placeholder">Chart will be displayed here</string>
+
+    <!-- Calendar View -->
+    <string name="calendar_view">📅 Calendar View</string>
+    <string name="present">Present</string>
+    <string name="absent">Absent</string>
+    <string name="leave">Leave</string>
+
+    <!-- Smart Insights -->
+    <string name="smart_insights">🧠 Smart Insights</string>
+    <string name="insight_great_attendance">Great job! You\'ve maintained 100% attendance this week.</string>
+    <string name="insight_improvement">You\'ve improved your performance by 10% compared to last month.</string>
+    <string name="insight_work_balance">Consider balancing work hours to avoid burnout.</string>
+    <string name="insight_punctuality">Your punctuality has improved significantly this month!</string>
+    <string name="insight_consistency">Maintaining consistent work hours shows great discipline.</string>
+
+    <!-- Footer -->
+    <string name="last_updated_placeholder">Last Updated: June 1, 2025 at 09:00 AM</string>
+    <string name="download_pdf_report">📄 Download PDF Report</string>
+
+    <!-- General -->
+    <string name="loading">Loading...</string>
+    <string name="error_loading_data">Error loading data. Please try again.</string>
+    <string name="no_data_available">No data available for the selected period.</string>
+
+    <!-- Status Messages -->
+    <string name="excellent_performance">Excellent Performance!</string>
+    <string name="good_performance">Good Performance</string>
+    <string name="needs_improvement">Needs Improvement</string>
+
+    <!-- Time Format -->
+    <string name="time_format_hours">%1$s hours</string>
+    <string name="time_format_minutes">%1$s minutes</string>
+    <string name="time_format_hours_minutes">%1$sh %2$sm</string>
+
+    <!-- Date Formats -->
+    <string name="date_format_full">MMMM d, yyyy</string>
+    <string name="date_format_short">MMM d</string>
+    <string name="date_range_format">%1$s – %2$s</string>
+
+    <!-- Action Buttons -->
+    <string name="refresh2">Refresh</string>
+    <string name="share">Share</string>
+    <string name="export">Export</string>
+    <string name="view_details">View Details</string>
+
+    <!-- Accessibility -->
+    <string name="cd_employee_avatar">Employee profile picture</string>
+    <string name="cd_attendance_chart">Monthly attendance trend chart</string>
+    <string name="cd_time_pattern_chart">Login logout pattern chart</string>
+    <string name="cd_calendar_view">Attendance calendar view</string>
+    <string name="cd_download_report">Download PDF report button</string>
+
+    <!-- Error Messages -->
+    <string name="error_network2">Network error. Please check your connection.</string>
+    <string name="error_server">Server error. Please try again later.</string>
+    <string name="error_pdf_generation">Failed to generate PDF report.</string>
+    <string name="success_pdf_downloaded">PDF report downloaded successfully!</string>
+    <string name="error_description">Please check your internet connection and try again.</string>
+    <string name="retry">Retry</string>
+    <string name="no_data_description">There is no report data available for the selected period.</string>
+    <string name="employee_avatar">Employee profile picture</string>
+    <string name="attendance_chart">Monthly attendance trend chart</string>
+    <string name="time_pattern_chart">Login logout pattern chart</string>
+    <string name="download_report">Download PDF report</string>
+    <string name="attendance_calendar">Attendance calendar view</string>
+    <string name="attendance_progress">Attendance percentage indicator</string>
+
+<!--    Admin Dashboard -->
+
+    <!-- Profile and Header -->
+    <string name="admin_profile_picture">Admin Profile Picture</string>
+
+    <!-- Dashboard Overview -->
+    <string name="total_employees_icon">Total Employees Icon</string>
+    <string name="present_today_icon">Present Today Icon</string>
+    <string name="pending_leaves_icon">Pending Leaves Icon</string>
+    <string name="test_performance_icon">Test Performance Icon</string>
+
+    <!-- Admin Actions -->
+    <string name="employee_management">Employee Management</string>
+    <string name="attendance_monitoring">Attendance Monitoring</string>
+    <string name="leave_management">Leave Management</string>
+    <string name="geofence_settings">Geofence Settings</string>
+    <string name="performance_tests">Performance Tests</string>
+    <string name="reports">Reports</string>
+
+
+
+    <!-- Quick Stats -->
+    <string name="attendance_rate_icon">Attendance Rate Icon</string>
+    <string name="avg_test_score_icon">Average Test Score Icon</string>
+
+
+
+    <!-- Navigation and Actions -->
+    <string name="see_all">See All</string>
+    <string name="mark_attendance">Mark Attendance</string>
+
+    <!-- Status Messages -->
+    <string name="no_recent_activity">No recent activity</string>
+
+
+    <!-- Dashboard Sections -->
+    <string name="dashboard_overview">Dashboard Overview</string>
+    <string name="admin_actions">Admin Actions</string>
+    <string name="recent_activity">Recent Activity</string>
+    <string name="quick_stats">Quick Stats</string>
+    <string name="test_performance_overview">Test Performance Overview</string>
+
+    <!-- Statistics Labels -->
+    <string name="total_employees">Total Employees</string>
+    <string name="present_today">Present Today</string>
+    <string name="pending_leaves">Pending Leaves</string>
+    <string name="total_sent">Total Sent</string>
+    <string name="total_taken">Total Taken</string>
+    <string name="total_pending">Total Pending</string>
+    <string name="attendance_rate">Attendance Rate</string>
+    <string name="avg_test_score">Avg Test Score</string>
+
+    <!-- Time and Date -->
+    <string name="good_morning">Good Morning</string>
+    <string name="good_afternoon">Good Afternoon</string>
+    <string name="good_evening">Good Evening</string>
+    <string name="this_week">This Week</string>
+    <string name="this_month">This Month</string>
+
+    <!-- Employee Types -->
+    <string name="tech_employee">Tech Employee</string>
+    <string name="field_worker">Field Worker / Technician</string>
+    <string name="admin_hr_managerial">Admin/HR/Managerial Staff</string>
+    <string name="trainer_support">Trainer/Support Staff</string>
+    <string name="other">Other</string>
+
+    <!-- Leave Status -->
+    <string name="approved">Approved</string>
+    <string name="rejected">Rejected</string>
+    <string name="pending">Pending</string>
+
+    <!-- Attendance Status -->
+    <string name="checked_in">Checked In</string>
+    <string name="checked_out">Checked Out</string>
+    <string name="not_checked_in">Not Checked In</string>
+
+    <!-- Actions -->
+    <string name="approve">Approve</string>
+    <string name="reject">Reject</string>
+    <string name="send_test">Send Test</string>
+    <string name="set_geofence">Set Geofence</string>
+    <string name="view_attendance">View Attendance</string>
+    <string name="manage_employees">Manage Employees</string>
+
+    <!-- Error Messages -->
+    <string name="Payroll">Payroll</string>
+    <string name="error_permission">Permission denied</string>
+
+    <!-- Success Messages -->
+    <string name="success_test_sent">Test sent successfully</string>
+    <string name="success_geofence_set">Geofence set successfully</string>
+    <string name="success_employee_added">Employee added successfully</string>
+
+    <!-- Placeholder Text -->
+    <string name="loading_placeholder">...</string>
+    <string name="activity_icon">Activity Icon</string>
+    <string name="location_icon">Location Icon</string>
+    <string name="reports_analytics">Reports &amp; Analytics</string>
+    <string name="appraisals">Appraisals</string>
+    <string name="employee_activity_icon">Employee Activity Icon</string>
+    <string name="avg_work_hours_icon">Average work hours icon</string>
+
+
+    <string-array name="user_types">
+        <item>Select User Type</item>
+        <item>Admin</item>
+        <item>Employee</item>
+    </string-array>
+</resources>

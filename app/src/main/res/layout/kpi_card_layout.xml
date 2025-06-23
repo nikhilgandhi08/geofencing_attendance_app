@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="3dp"
+    android:backgroundTint="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="12dp">
+
+        <ImageView
+            android:id="@+id/iv_kpi_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_time"
+            android:tint="@color/info_color" />
+
+        <TextView
+            android:id="@+id/tv_kpi_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8.2h"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/info_color"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/tv_kpi_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Avg Hours"
+            android:textSize="12sp"
+            android:textColor="@color/text_secondary" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

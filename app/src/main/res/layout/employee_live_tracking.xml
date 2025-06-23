@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/live_tracking_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_background">
+
+    <!-- Google Map Fragment with dark style -->
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Status Card -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/status_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_margin="16dp"
+        app:cardBackgroundColor="#1F1F1F"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp">
+
+        <TextView
+            android:id="@+id/location_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Locating employee..."
+            android:textAlignment="center"
+            android:textColor="#E0E0E0"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif-medium" />
+    </androidx.cardview.widget.CardView>
+
+    <!-- Bottom Controls Container -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="16dp"
+        app:cardBackgroundColor="#1F1F1F"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Refresh Location Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_refresh_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#2D2D2D"
+                android:paddingVertical="12dp"
+                android:text="Refresh Location"
+                android:textColor="#FFFFFF"
+                app:cornerRadius="24dp"
+                app:icon="@drawable/refresh_24dp_e3e3e3"
+                app:iconGravity="textStart"
+                app:iconTint="#FFFFFF" />
+
+            <!-- Attendance Buttons -->
+            <LinearLayout
+                android:id="@+id/attendance_buttons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_mark_in"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#263238"
+                    android:paddingVertical="12dp"
+                    android:text="LOGIN"
+                    android:textColor="#FFFFFF"
+                    app:cornerRadius="24dp"
+                    app:icon="@drawable/login_40dp_e3e3e3"
+                    app:iconGravity="textStart"
+                    app:iconTint="#4CAF50" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_mark_out"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#263238"
+                    android:paddingVertical="12dp"
+                    android:text="LOGOUT"
+                    android:textColor="#FFFFFF"
+                    app:cornerRadius="24dp"
+                    app:icon="@drawable/logout_40dp_e3e3e3"
+                    app:iconGravity="textStart"
+                    app:iconTint="#F44336" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

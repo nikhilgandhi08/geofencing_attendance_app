@@ -1,0 +1,29 @@
+This is my current Folder structiure:
+
+auth(Folder)-->
+      1)LoginActivity.java
+      2)SignupActivity.java
+
+admin(Folder)-->
+      1)AdminActivity.java
+      2)Fragments folder
+
+
+employee(Folder)-->
+      1EmployeeActivity.java
+      2)Fragments folder
+
+models(Folder)-->
+     1)HelperClass.java
+     2)AdminEmp.java
+     3)AttendanceRecord.java
+     4)EmployeeLocationDatabase.java
+     5)GeofenceModel.java
+     6)LeaveRequest.java
+     7)Report.java
+
+services(Folder)-->
+     1)LocationTrackingService.java
+     2)GeofenceUtils.java
+
+SplashActivity.java

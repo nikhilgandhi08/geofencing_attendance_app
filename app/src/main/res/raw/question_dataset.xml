@@ -1,0 +1,2345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions>
+
+    <!-- Tech Employees: Questions 1-50 -->
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>1. What does JVM stand for?</question_text>
+        <option1>Java Virtual Machine</option1>
+        <option2>Java Variable Method</option2>
+        <option3>Java Visual Model</option3>
+        <option4>Java Verified Memory</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>2. Which protocol is used for secure HTTP connections?</question_text>
+        <option1>FTP</option1>
+        <option2>HTTPS</option2>
+        <option3>SMTP</option3>
+        <option4>TCP</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>3. What does CSS stand for?</question_text>
+        <option1>Creative Style Sheets</option1>
+        <option2>Cascading Style Sheets</option2>
+        <option3>Computer Style Sheets</option3>
+        <option4>Colorful Style Sheets</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>4. What is the main function of DNS?</question_text>
+        <option1>Translate domain names to IP addresses</option1>
+        <option2>Host websites</option2>
+        <option3>Provide email services</option3>
+        <option4>Secure network traffic</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>5. Which language is primarily used for Android app development?</question_text>
+        <option1>Swift</option1>
+        <option2>Java</option2>
+        <option3>Kotlin</option3>
+        <option4>Both Java and Kotlin</option4>
+        <correct_option>4</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>6. What is Git used for?</question_text>
+        <option1>Version control</option1>
+        <option2>Database management</option2>
+        <option3>Graphic design</option3>
+        <option4>Network configuration</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>7. What does API stand for?</question_text>
+        <option1>Application Programming Interface</option1>
+        <option2>Application Performance Index</option2>
+        <option3>Advanced Programming Integration</option3>
+        <option4>Applied Protocol Interface</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>8. Which HTML tag is used to create a hyperlink?</question_text>
+        <option1>&lt;link&gt;</option1>
+        <option2>&lt;a&gt;</option2>
+        <option3>&lt;href&gt;</option3>
+        <option4>&lt;hyperlink&gt;</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>9. What is the primary purpose of SQL?</question_text>
+        <option1>Querying databases</option1>
+        <option2>Styling web pages</option2>
+        <option3>Writing scripts</option3>
+        <option4>Designing software architecture</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>10. Which of these is NOT a programming paradigm?</question_text>
+        <option1>Object-Oriented</option1>
+        <option2>Functional</option2>
+        <option3>Procedural</option3>
+        <option4>Graphical</option4>
+        <correct_option>4</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>11. What does HTTP stand for?</question_text>
+        <option1>HyperText Transfer Protocol</option1>
+        <option2>HighText Transfer Protocol</option2>
+        <option3>Hyper Transfer Text Protocol</option3>
+        <option4>HyperText Transmission Protocol</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>12. Which of the following is a NoSQL database?</question_text>
+        <option1>MySQL</option1>
+        <option2>MongoDB</option2>
+        <option3>Oracle DB</option3>
+        <option4>PostgreSQL</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>13. What is a REST API?</question_text>
+        <option1>Random Execution Server Technology</option1>
+        <option2>Representational State Transfer</option2>
+        <option3>Real-time Embedded System Technology</option3>
+        <option4>Remote Execution Service Tool</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>14. What language is primarily used for iOS app development?</question_text>
+        <option1>Java</option1>
+        <option2>Kotlin</option2>
+        <option3>Swift</option3>
+        <option4>Objective-C</option4>
+        <correct_option>3</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>15. Which command is used to initialize a new Git repository?</question_text>
+        <option1>git init</option1>
+        <option2>git start</option2>
+        <option3>git create</option3>
+        <option4>git new</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>16. What is the use of the 'this' keyword in Java?</question_text>
+        <option1>Refers to current object</option1>
+        <option2>Refers to parent class</option2>
+        <option3>Refers to static methods</option3>
+        <option4>None of the above</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>17. What does JSON stand for?</question_text>
+        <option1>JavaScript Object Notation</option1>
+        <option2>Java Syntax Object Notation</option2>
+        <option3>JavaScript Oriented Notation</option3>
+        <option4>JavaScript Original Notation</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>18. Which of the following is NOT a programming language?</question_text>
+        <option1>Python</option1>
+        <option2>HTML</option2>
+        <option3>Java</option3>
+        <option4>C++</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>19. What is the main purpose of a firewall?</question_text>
+        <option1>Manage network traffic</option1>
+        <option2>Prevent unauthorized access</option2>
+        <option3>Backup data</option3>
+        <option4>Speed up internet connection</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>20. What does IDE stand for?</question_text>
+        <option1>Integrated Development Environment</option1>
+        <option2>Internal Design Editor</option2>
+        <option3>Independent Development Engine</option3>
+        <option4>Integrated Design Environment</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>21. Which is a frontend JavaScript framework?</question_text>
+        <option1>Angular</option1>
+        <option2>Django</option2>
+        <option3>Flask</option3>
+        <option4>Laravel</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>22. What is the use of the 'git clone' command?</question_text>
+        <option1>Create a new branch</option1>
+        <option2>Copy a remote repository locally</option2>
+        <option3>Commit changes</option3>
+        <option4>Push changes to remote</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>23. Which company developed the Java programming language?</question_text>
+        <option1>Microsoft</option1>
+        <option2>Sun Microsystems</option2>
+        <option3>Apple</option3>
+        <option4>Google</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>24. What is the default port number for HTTP?</question_text>
+        <option1>21</option1>
+        <option2>80</option2>
+        <option3>443</option3>
+        <option4>8080</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>25. Which keyword is used to create a class in Java?</question_text>
+        <option1>class</option1>
+        <option2>Class</option2>
+        <option3>new</option3>
+        <option4>def</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>26. What is the output of 'console.log(typeof null)' in JavaScript?</question_text>
+        <option1>"null"</option1>
+        <option2>"object"</option2>
+        <option3>"undefined"</option3>
+        <option4>"boolean"</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>27. Which of these is NOT a database management system?</question_text>
+        <option1>Oracle</option1>
+        <option2>MongoDB</option2>
+        <option3>Postman</option3>
+        <option4>MySQL</option4>
+        <correct_option>3</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>28. What does SSL stand for?</question_text>
+        <option1>Secure Socket Layer</option1>
+        <option2>Secure System Link</option2>
+        <option3>System Secure Layer</option3>
+        <option4>Socket Secure Link</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>29. Which of these is a NoSQL database?</question_text>
+        <option1>Oracle</option1>
+        <option2>MySQL</option2>
+        <option3>MongoDB</option3>
+        <option4>SQL Server</option4>
+        <correct_option>3</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>30. Which symbol is used to denote an ID selector in CSS?</question_text>
+        <option1>#</option1>
+        <option2>.</option2>
+        <option3>*</option3>
+        <option4>@</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>31. What does DOM stand for?</question_text>
+        <option1>Document Object Model</option1>
+        <option2>Data Object Model</option2>
+        <option3>Document Orientation Model</option3>
+        <option4>Data Orientation Model</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>32. What is the command to create a new React app using npx?</question_text>
+        <option1>npx create-react-app appname</option1>
+        <option2>npm create react app appname</option2>
+        <option3>npx react-create-app appname</option3>
+        <option4>npm new react app appname</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>33. Which HTTP method is used to retrieve data?</question_text>
+        <option1>POST</option1>
+        <option2>GET</option2>
+        <option3>PUT</option3>
+        <option4>DELETE</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>34. What does CPU stand for?</question_text>
+        <option1>Central Processing Unit</option1>
+        <option2>Computer Processing Unit</option2>
+        <option3>Central Performance Unit</option3>
+        <option4>Computer Performance Unit</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>35. Which of these is a backend JavaScript runtime environment?</question_text>
+        <option1>React</option1>
+        <option2>Angular</option2>
+        <option3>Node.js</option3>
+        <option4>Vue.js</option4>
+        <correct_option>3</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>36. What is the main purpose of Docker?</question_text>
+        <option1>Virtualization</option1>
+        <option2>Containerization</option2>
+        <option3>Monitoring</option3>
+        <option4>Orchestration</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>37. What is the main protocol used to send emails?</question_text>
+        <option1>FTP</option1>
+        <option2>SMTP</option2>
+        <option3>HTTP</option3>
+        <option4>IMAP</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>38. What is the main difference between '==' and '===' in JavaScript?</question_text>
+        <option1>'==' compares type and value, '===' compares only value</option1>
+        <option2>'==' compares only value, '===' compares type and value</option2>
+        <option3>Both are the same</option3>
+        <option4>'==' is strict equality, '===' is loose equality</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>39. Which of these is an example of a cloud computing platform?</question_text>
+        <option1>Azure</option1>
+        <option2>GitHub</option2>
+        <option3>Docker</option3>
+        <option4>Postman</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>40. Which programming language is known for its use in statistical computing?</question_text>
+        <option1>Python</option1>
+        <option2>R</option2>
+        <option3>Java</option3>
+        <option4>C#</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>41. What does CSS 'float' property do?</question_text>
+        <option1>Positions elements horizontally</option1>
+        <option2>Creates animation</option2>
+        <option3>Changes color of element</option3>
+        <option4>None of the above</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>42. What is the file extension for Python files?</question_text>
+        <option1>.py</option1>
+        <option2>.java</option2>
+        <option3>.js</option3>
+        <option4>.html</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>43. Which of the following is a markup language?</question_text>
+        <option1>Python</option1>
+        <option2>HTML</option2>
+        <option3>Java</option3>
+        <option4>C++</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>44. What is the output of print("Hello" + "World") in Python?</question_text>
+        <option1>Hello World</option1>
+        <option2>HelloWorld</option2>
+        <option3>Hello+World</option3>
+        <option4>Error</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>45. Which command is used to install packages in Node.js?</question_text>
+        <option1>npm install</option1>
+        <option2>node install</option2>
+        <option3>npm add</option3>
+        <option4>node add</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>46. Which SQL statement is used to retrieve data?</question_text>
+        <option1>SELECT</option1>
+        <option2>INSERT</option2>
+        <option3>UPDATE</option3>
+        <option4>DELETE</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>47. What is the use of the 'break' statement in programming?</question_text>
+        <option1>To exit a loop or switch statement</option1>
+        <option2>To skip the current iteration</option2>
+        <option3>To start a loop</option3>
+        <option4>To declare a variable</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>48. What is a function in programming?</question_text>
+        <option1>A reusable block of code</option1>
+        <option2>A variable</option2>
+        <option3>An operator</option3>
+        <option4>A data type</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>49. Which of the following is a CSS framework?</question_text>
+        <option1>Bootstrap</option1>
+        <option2>React</option2>
+        <option3>Node.js</option3>
+        <option4>Flask</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>50. What is the main purpose of HTTPS?</question_text>
+        <option1>Faster loading</option1>
+        <option2>Secure communication</option2>
+        <option3>Better SEO</option3>
+        <option4>Web hosting</option4>
+        <correct_option>2</correct_option>
+    </question>
+
+    <!-- Manager: Questions 51-100 -->
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>51. What is the primary role of a project manager?</question_text>
+        <option1>Writing code</option1>
+        <option2>Managing resources and timelines</option2>
+        <option3>Designing UI</option3>
+        <option4>Testing software</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>52. What does KPI stand for?</question_text>
+        <option1>Key Performance Indicator</option1>
+        <option2>Knowledge Process Integration</option2>
+        <option3>Key Process Initiative</option3>
+        <option4>Knowledge Performance Indicator</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>53. What is Scrum?</question_text>
+        <option1>A programming language</option1>
+        <option2>A project management framework</option2>
+        <option3>A database</option3>
+        <option4>A software testing tool</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>54. What is a Gantt chart used for?</question_text>
+        <option1>Tracking project schedules</option1>
+        <option2>Designing websites</option2>
+        <option3>Writing code</option3>
+        <option4>Database management</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>55. What does RACI stand for in project management?</question_text>
+        <option1>Responsible, Accountable, Consulted, Informed</option1>
+        <option2>Reviewed, Approved, Consulted, Implemented</option2>
+        <option3>Responsible, Accounted, Controlled, Informed</option3>
+        <option4>Reviewed, Accountable, Controlled, Informed</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>56. What is the main purpose of a risk management plan?</question_text>
+        <option1>Identify and mitigate risks</option1>
+        <option2>Increase project cost</option2>
+        <option3>Design software architecture</option3>
+        <option4>Manage team communication</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>57. What is the main function of a stakeholder?</question_text>
+        <option1>To develop software</option1>
+        <option2>To have an interest or concern in the project</option2>
+        <option3>To test software</option3>
+        <option4>To manage code repositories</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>58. What does MVP stand for in product development?</question_text>
+        <option1>Most Valuable Product</option1>
+        <option2>Minimum Viable Product</option2>
+        <option3>Maximum Value Proposition</option3>
+        <option4>Minimum Value Product</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>59. Which of these is a common agile methodology?</question_text>
+        <option1>Waterfall</option1>
+        <option2>Scrum</option2>
+        <option3>Prince2</option3>
+        <option4>Six Sigma</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>60. What is the primary focus of Kanban boards?</question_text>
+        <option1>Time tracking</option1>
+        <option2>Visualizing work in progress</option2>
+        <option3>Budget management</option3>
+        <option4>Writing code</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>61. What is a sprint in agile?</question_text>
+        <option1>A short, time-boxed period to complete tasks</option1>
+        <option2>A project milestone</option2>
+        <option3>A budget review</option3>
+        <option4>A software bug</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>62. Which tool is commonly used for version control?</question_text>
+        <option1>Git</option1>
+        <option2>JIRA</option2>
+        <option3>Trello</option3>
+        <option4>Slack</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>63. What is scope creep?</question_text>
+        <option1>When project requirements increase beyond the original plan</option1>
+        <option2>When project is completed early</option2>
+        <option3>When project budget decreases</option3>
+        <option4>When team members leave</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>64. What is the main advantage of agile methodology?</question_text>
+        <option1>Flexibility and iterative progress</option1>
+        <option2>Strict documentation</option2>
+        <option3>Fixed scope</option3>
+        <option4>Long development cycles</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>65. Which role is responsible for maximizing product value in Scrum?</question_text>
+        <option1>Scrum Master</option1>
+        <option2>Product Owner</option2>
+        <option3>Developer</option3>
+        <option4>Stakeholder</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>66. What is a burndown chart used for?</question_text>
+        <option1>Tracking remaining work in a sprint</option1>
+        <option2>Budget tracking</option2>
+        <option3>Code quality metrics</option3>
+        <option4>Hiring process</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>67. What is the main goal of change management?</question_text>
+        <option1>To handle changes smoothly</option1>
+        <option2>To stop changes</option2>
+        <option3>To increase costs</option3>
+        <option4>To fire employees</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>68. Which of these is NOT a project management software?</question_text>
+        <option1>Asana</option1>
+        <option2>JIRA</option2>
+        <option3>Slack</option3>
+        <option4>MS Project</option4>
+        <correct_option>3</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>69. What does ROI stand for?</question_text>
+        <option1>Return on Investment</option1>
+        <option2>Rate of Interest</option2>
+        <option3>Return on Input</option3>
+        <option4>Rate of Investment</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>70. What is a stakeholder analysis?</question_text>
+        <option1>Identifying and assessing stakeholders</option1>
+        <option2>Writing code for stakeholders</option2>
+        <option3>Testing software features</option3>
+        <option4>Managing team meetings</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>71. What is the key feature of Lean methodology?</question_text>
+        <option1>Reducing waste</option1>
+        <option2>Increasing documentation</option2>
+        <option3>Lengthy processes</option3>
+        <option4>Strict hierarchy</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>72. What is the role of a Scrum Master?</question_text>
+        <option1>To manage the development team</option1>
+        <option2>To facilitate the Scrum process</option2>
+        <option3>To write code</option3>
+        <option4>To decide project budget</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>73. What is timeboxing in agile?</question_text>
+        <option1>Allocating fixed time periods for activities</option1>
+        <option2>Extending deadlines</option2>
+        <option3>Delaying tasks</option3>
+        <option4>Writing code quickly</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>74. Which of these is an example of a communication tool?</question_text>
+        <option1>Slack</option1>
+        <option2>Git</option2>
+        <option3>Jenkins</option3>
+        <option4>Docker</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>75. What is the main use of JIRA?</question_text>
+        <option1>Bug tracking and project management</option1>
+        <option2>Writing code</option2>
+        <option3>Designing UI</option3>
+        <option4>Database management</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>76. What is the critical path in project management?</question_text>
+        <option1>The longest sequence of tasks determining project duration</option1>
+        <option2>The shortest sequence of tasks</option2>
+        <option3>The budget allocation plan</option3>
+        <option4>Team communication plan</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>77. What is earned value management (EVM)?</question_text>
+        <option1>A technique to measure project performance</option1>
+        <option2>A coding framework</option2>
+        <option3>A database tool</option3>
+        <option4>A testing methodology</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>78. What is a project charter?</question_text>
+        <option1>A document that formally authorizes a project</option1>
+        <option2>A coding guideline</option2>
+        <option3>A meeting agenda</option3>
+        <option4>A software tool</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>79. What is a user story in agile?</question_text>
+        <option1>A short description of a feature from an end-user perspective</option1>
+        <option2>A coding task</option2>
+        <option3>A bug report</option3>
+        <option4>A testing script</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>80. What is velocity in agile?</question_text>
+        <option1>The rate at which a team completes work</option1>
+        <option2>Speed of coding</option2>
+        <option3>Time spent in meetings</option3>
+        <option4>Budget consumption rate</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>81. What is the main goal of retrospective meetings in agile?</question_text>
+        <option1>To review what went well and what can be improved</option1>
+        <option2>To assign new tasks</option2>
+        <option3>To test software</option3>
+        <option4>To hire new team members</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>82. What is scope management?</question_text>
+        <option1>Defining and controlling what is included in the project</option1>
+        <option2>Managing project budget</option2>
+        <option3>Managing team attendance</option3>
+        <option4>Tracking bugs</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>83. What is a product backlog?</question_text>
+        <option1>A prioritized list of work for the development team</option1>
+        <option2>A project schedule</option2>
+        <option3>A test case document</option3>
+        <option4>A budget report</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>84. What is risk mitigation?</question_text>
+        <option1>Taking steps to reduce the impact of risks</option1>
+        <option2>Ignoring risks</option2>
+        <option3>Increasing project scope</option3>
+        <option4>Stopping the project</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>85. What is a Kanban board?</question_text>
+        <option1>A visual tool to manage workflow</option1>
+        <option2>A financial report</option2>
+        <option3>A testing tool</option3>
+        <option4>A code repository</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>86. What is the definition of done?</question_text>
+        <option1>Criteria that must be met before a task is considered complete</option1>
+        <option2>Deadline for the project</option2>
+        <option3>Budget limit</option3>
+        <option4>Team meeting</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>87. What is a stakeholder register?</question_text>
+        <option1>A document listing project stakeholders and their details</option1>
+        <option2>A list of tasks</option2>
+        <option3>A budget plan</option3>
+        <option4>A software tool</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>88. What does CCB stand for in project management?</question_text>
+        <option1>Change Control Board</option1>
+        <option2>Code Control Branch</option2>
+        <option3>Cost Control Budget</option3>
+        <option4>Critical Control Backup</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>89. What is a project milestone?</question_text>
+        <option1>A significant event or checkpoint in the project</option1>
+        <option2>A coding task</option2>
+        <option3>A budget document</option3>
+        <option4>A team meeting</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>90. What is scope baseline?</question_text>
+        <option1>The approved version of the project scope statement</option1>
+        <option2>Project budget</option2>
+        <option3>Risk management plan</option3>
+        <option4>Team list</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>91. What is a dependency in project management?</question_text>
+        <option1>A relationship between two tasks where one depends on the other</option1>
+        <option2>A team member</option2>
+        <option3>A budget report</option3>
+        <option4>A coding error</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>92. What is a sprint backlog?</question_text>
+        <option1>The list of tasks to be completed in a sprint</option1>
+        <option2>Project charter</option2>
+        <option3>Risk register</option3>
+        <option4>Communication plan</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>93. What does WBS stand for?</question_text>
+        <option1>Work Breakdown Structure</option1>
+        <option2>Work Budget Schedule</option2>
+        <option3>Wide Business Scope</option3>
+        <option4>Work Backup System</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>94. What is a risk register?</question_text>
+        <option1>A document listing identified risks and their mitigation plans</option1>
+        <option2>Project budget sheet</option2>
+        <option3>Task assignment list</option3>
+        <option4>Meeting notes</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>95. What is a project sponsor?</question_text>
+        <option1>Person who provides resources and support for the project</option1>
+        <option2>Project manager</option2>
+        <option3>Team member</option3>
+        <option4>Customer</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>96. What is the main purpose of a communication plan?</question_text>
+        <option1>To outline how project information will be shared</option1>
+        <option2>To assign tasks</option2>
+        <option3>To track budget</option3>
+        <option4>To test software</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>97. What is a project baseline?</question_text>
+        <option1>The approved version of project plan used to measure performance</option1>
+        <option2>Initial project proposal</option2>
+        <option3>Budget report</option3>
+        <option4>Risk document</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>98. What is a deliverable?</question_text>
+        <option1>A tangible or intangible product or result produced by the project</option1>
+        <option2>A project milestone</option2>
+        <option3>A team member</option3>
+        <option4>A budget line</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>99. What is the triple constraint in project management?</question_text>
+        <option1>Scope, time, and cost</option1>
+        <option2>Quality, risk, and budget</option2>
+        <option3>Communication, scope, and cost</option3>
+        <option4>Time, resources, and team</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>100. What is a risk response plan?</question_text>
+        <option1>Strategies to address identified risks</option1>
+        <option2>Project schedule</option2>
+        <option3>Budget allocation</option3>
+        <option4>Team communication strategy</option4>
+        <correct_option>1</correct_option>
+    </question>
+
+
+
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>101. What is PPE?</question_text>
+            <option1>Personal Protective Equipment</option1>
+            <option2>Project Planning Equipment</option2>
+            <option3>Professional Performance Evaluation</option3>
+            <option4>Personal Productive Effort</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>102. What should you do before starting work on site?</question_text>
+            <option1>Conduct a safety check</option1>
+            <option2>Ignore hazards</option2>
+            <option3>Start immediately</option3>
+            <option4>Leave site</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>103. Why is it important to report unsafe conditions?</question_text>
+            <option1>To prevent accidents</option1>
+            <option2>To delay work</option2>
+            <option3>To avoid responsibility</option3>
+            <option4>To increase workload</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>104. What should you do if you find damaged equipment?</question_text>
+            <option1>Report it immediately</option1>
+            <option2>Use it carefully</option2>
+            <option3>Ignore it</option3>
+            <option4>Fix it yourself</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>105. How should heavy loads be lifted?</question_text>
+            <option1>Using proper lifting techniques</option1>
+            <option2>Quickly without care</option2>
+            <option3>With the back bent</option3>
+            <option4>By one person only</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>106. What does a safety sign with a red circle mean?</question_text>
+            <option1>Prohibition or danger</option1>
+            <option2>Mandatory action</option2>
+            <option3>Information</option3>
+            <option4>Emergency exit</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>107. Why is it important to follow safety procedures?</question_text>
+            <option1>To protect yourself and others</option1>
+            <option2>To speed up work</option2>
+            <option3>To avoid rules</option3>
+            <option4>To reduce cost</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>108. What should be done in case of a fire?</question_text>
+            <option1>Follow emergency evacuation procedures</option1>
+            <option2>Ignore and continue work</option2>
+            <option3>Call a supervisor later</option3>
+            <option4>Try to extinguish fire without training</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>109. What is the main purpose of a toolbox talk?</question_text>
+            <option1>To discuss safety issues before work starts</option1>
+            <option2>To assign tasks</option2>
+            <option3>To review budget</option3>
+            <option4>To schedule meetings</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>110. How should chemicals be stored?</question_text>
+            <option1>In labeled containers, away from heat</option1>
+            <option2>Anywhere</option2>
+            <option3>Mixed together</option3>
+            <option4>In open containers</option4>
+            <correct_option>1</correct_option>
+        </question>
+
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>111. How often should safety drills be conducted?</question_text>
+            <option1>Regularly as per company policy</option1>
+            <option2>Once in five years</option2>
+            <option3>Never</option3>
+            <option4>Only after accidents</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>112. What is the purpose of lockout/tagout procedures?</question_text>
+            <option1>To ensure machines are safely shut down before maintenance</option1>
+            <option2>To speed up production</option2>
+            <option3>To assign blame</option3>
+            <option4>To track tools</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>113. Which of the following is a common hazard on construction sites?</question_text>
+            <option1>Falling objects</option1>
+            <option2>Quiet office environment</option2>
+            <option3>Clean floors</option3>
+            <option4>Air conditioning</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>114. When should you wear a hard hat?</question_text>
+            <option1>At all times on a construction site</option1>
+            <option2>Only when asked</option2>
+            <option3>Only indoors</option3>
+            <option4>Never</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>115. What is the safest way to use a ladder?</question_text>
+            <option1>Maintain three points of contact</option1>
+            <option2>Use quickly without attention</option2>
+            <option3>Stand on the top rung</option3>
+            <option4>Lean it against glass</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>116. Why is good housekeeping important on site?</question_text>
+            <option1>To prevent slips, trips, and falls</option1>
+            <option2>To impress visitors</option2>
+            <option3>To increase clutter</option3>
+            <option4>To slow down work</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>117. What should you do if you feel unwell at work?</question_text>
+            <option1>Inform your supervisor immediately</option1>
+            <option2>Ignore and continue</option2>
+            <option3>Leave without telling anyone</option3>
+            <option4>Take medication secretly</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>118. What is the purpose of safety data sheets (SDS)?</question_text>
+            <option1>Provide information about chemical hazards</option1>
+            <option2>To show company profits</option2>
+            <option3>To give employee schedules</option3>
+            <option4>To list emergency contacts</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>119. When should you report an injury?</question_text>
+            <option1>Immediately, no matter how minor</option1>
+            <option2>At the end of the week</option2>
+            <option3>Only if serious</option3>
+            <option4>Never</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>120. What is the meaning of a green safety sign?</question_text>
+            <option1>Safe condition or emergency exit</option1>
+            <option2>Danger</option2>
+            <option3>Prohibition</option3>
+            <option4>Mandatory action</option4>
+            <correct_option>1</correct_option>
+        </question>
+
+        <!-- More questions from 121 to 150 -->
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>121. How often should equipment be inspected?</question_text>
+            <option1>Before each use</option1>
+            <option2>Once a year</option2>
+            <option3>Never</option3>
+            <option4>Only when broken</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>122. What should you do if you are unsure about a task?</question_text>
+            <option1>Ask your supervisor for guidance</option1>
+            <option2>Ignore it</option2>
+            <option3>Try to guess</option3>
+            <option4>Skip the task</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>123. What is a hazard?</question_text>
+            <option1>Something that can cause harm</option1>
+            <option2>A safety procedure</option2>
+            <option3>A type of equipment</option3>
+            <option4>A company rule</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>124. What is the correct response to an electrical shock?</question_text>
+            <option1>Disconnect power and seek help</option1>
+            <option2>Ignore it</option2>
+            <option3>Try to move the victim immediately</option3>
+            <option4>Use water to cool the victim</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>125. When working at heights, what must you use?</question_text>
+            <option1>Fall protection equipment</option1>
+            <option2>Regular shoes</option2>
+            <option3>No protection</option3>
+            <option4>Heavy gloves only</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>126. What should you do if you find a spill?</question_text>
+            <option1>Clean it up or report it immediately</option1>
+            <option2>Ignore it</option2>
+            <option3>Walk around it</option3>
+            <option4>Call customer service</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>127. What is the first step in risk assessment?</question_text>
+            <option1>Identify hazards</option1>
+            <option2>Ignore hazards</option2>
+            <option3>Fix hazards</option3>
+            <option4>Report hazards</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>128. What PPE should be worn when handling chemicals?</question_text>
+            <option1>Gloves and eye protection</option1>
+            <option2>Sandals</option2>
+            <option3>Short sleeves</option3>
+            <option4>None</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>129. How do you safely store tools?</question_text>
+            <option1>In designated toolboxes</option1>
+            <option2>On the ground</option2>
+            <option3>Anywhere</option3>
+            <option4>In personal pockets</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>130. What is a confined space?</question_text>
+            <option1>A space not designed for continuous occupancy</option1>
+            <option2>An open area</option2>
+            <option3>A large room</option3>
+            <option4>A cafeteria</option4>
+            <correct_option>1</correct_option>
+        </question>
+
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>131. What does MSDS stand for?</question_text>
+            <option1>Material Safety Data Sheet</option1>
+            <option2>Mandatory Safety Data Sheet</option2>
+            <option3>Material System Data Sheet</option3>
+            <option4>Management Safety Document Sheet</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>132. How should you respond to a chemical spill?</question_text>
+            <option1>Follow spill response procedures</option1>
+            <option2>Ignore it</option2>
+            <option3>Wash it down the drain</option3>
+            <option4>Call customer service</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>133. What is the purpose of a safety helmet?</question_text>
+            <option1>Protect head from injury</option1>
+            <option2>Look stylish</option2>
+            <option3>Block sound</option3>
+            <option4>Keep hair clean</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>134. How should electrical tools be maintained?</question_text>
+            <option1>Regular inspection and maintenance</option1>
+            <option2>Use until broken</option2>
+            <option3>Ignore maintenance</option3>
+            <option4>Use water to clean</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>135. What is the safe distance from a live electrical wire?</question_text>
+            <option1>At least 3 meters</option1>
+            <option2>Touching distance</option2>
+            <option3>1 cm</option3>
+            <option4>Direct contact</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>136. What does a yellow safety sign indicate?</question_text>
+            <option1>Caution or warning</option1>
+            <option2>Danger</option2>
+            <option3>Mandatory action</option3>
+            <option4>Safe condition</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>137. Why is hydration important during field work?</question_text>
+            <option1>Prevents heat-related illnesses</option1>
+            <option2>Causes fatigue</option2>
+            <option3>Increases accidents</option3>
+            <option4>Is not important</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>138. When lifting heavy objects, what is recommended?</question_text>
+            <option1>Lift with legs, not back</option1>
+            <option2>Lift with back only</option2>
+            <option3>Lift quickly</option3>
+            <option4>Ask others to lift</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>139. What should you do if you feel dizzy on site?</question_text>
+            <option1>Stop work and seek help</option1>
+            <option2>Ignore and continue</option2>
+            <option3>Drink alcohol</option3>
+            <option4>Keep working harder</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>140. How should hazardous waste be disposed?</question_text>
+            <option1>According to regulations</option1>
+            <option2>Throw in regular trash</option2>
+            <option3>Burn in open areas</option3>
+            <option4>Flush down drains</option4>
+            <correct_option>1</correct_option>
+        </question>
+
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>141. What is the purpose of safety audits?</question_text>
+            <option1>Identify risks and improve safety</option1>
+            <option2>Reduce pay</option2>
+            <option3>Delay work</option3>
+            <option4>Increase accidents</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>142. How can you avoid slips and trips?</question_text>
+            <option1>Keep walkways clear</option1>
+            <option2>Leave cables on the floor</option2>
+            <option3>Ignore spills</option3>
+            <option4>Run everywhere</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>143. What is PPE?</question_text>
+            <option1>Personal Protective Equipment</option1>
+            <option2>Private Protective Equipment</option2>
+            <option3>Public Protective Equipment</option3>
+            <option4>Personal Protection Education</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>144. What should you do before using a new chemical?</question_text>
+            <option1>Read the MSDS</option1>
+            <option2>Ignore instructions</option2>
+            <option3>Mix with other chemicals</option3>
+            <option4>Use without protection</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>145. How should you respond to a fire alarm?</question_text>
+            <option1>Evacuate immediately</option1>
+            <option2>Ignore it</option2>
+            <option3>Finish work first</option3>
+            <option4>Call a friend</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>146. What is the purpose of lockout/tagout procedures?</question_text>
+            <option1>Prevent accidental machine startup</option1>
+            <option2>Speed up work</option2>
+            <option3>Ignore machine hazards</option3>
+            <option4>Allow anyone to operate machines</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>147. How should you report unsafe conditions?</question_text>
+            <option1>Immediately to supervisor</option1>
+            <option2>Keep quiet</option2>
+            <option3>Tell coworkers only</option3>
+            <option4>Ignore them</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>148. When is it safe to remove PPE?</question_text>
+            <option1>After leaving the hazardous area</option1>
+            <option2>Before entering hazardous area</option2>
+            <option3>During work</option3>
+            <option4>Anywhere</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>149. What should you do if equipment is damaged?</question_text>
+            <option1>Report and do not use</option1>
+            <option2>Use carefully</option2>
+            <option3>Fix it yourself</option3>
+            <option4>Ignore it</option4>
+            <correct_option>1</correct_option>
+        </question>
+        <question>
+            <test_taker_type>Field Worker</test_taker_type>
+            <question_text>150. What is the main goal of workplace safety?</question_text>
+            <option1>Protect workers from harm</option1>
+            <option2>Increase productivity at any cost</option2>
+            <option3>Ignore minor injuries</option3>
+            <option4>Reduce paperwork</option4>
+            <correct_option>1</correct_option>
+        </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>151. What is the primary purpose of ergonomic office furniture?</question_text>
+        <option1>To reduce strain and improve comfort</option1>
+        <option2>To look stylish</option2>
+        <option3>To increase office space</option3>
+        <option4>To reduce electricity usage</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>152. How often should you take breaks to reduce eye strain?</question_text>
+        <option1>Every 20 minutes</option1>
+        <option2>Every 2 hours</option2>
+        <option3>Once a day</option3>
+        <option4>Never</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>153. What should you do if you receive a suspicious email?</question_text>
+        <option1>Report it to IT department</option1>
+        <option2>Click any links to check</option2>
+        <option3>Delete without reading</option3>
+        <option4>Forward to colleagues</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>154. What is phishing?</question_text>
+        <option1>Fraudulent attempt to obtain sensitive information</option1>
+        <option2>A type of virus</option2>
+        <option3>Legal data sharing</option3>
+        <option4>Spam email</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>155. How should confidential documents be disposed of?</question_text>
+        <option1>Shredded before disposal</option1>
+        <option2>Thrown in regular trash</option2>
+        <option3>Recycled without shredding</option3>
+        <option4>Left on desk</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>156. What is the recommended posture for typing?</question_text>
+        <option1>Wrists straight and relaxed</option1>
+        <option2>Wrists bent upwards</option2>
+        <option3>Leaning forward</option3>
+        <option4>Slouching</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>157. What is the best way to secure your computer when stepping away?</question_text>
+        <option1>Lock the screen</option1>
+        <option2>Leave it unlocked</option2>
+        <option3>Turn off monitor only</option3>
+        <option4>Unplug keyboard</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>158. What is the purpose of a strong password?</question_text>
+        <option1>To prevent unauthorized access</option1>
+        <option2>To make login faster</option2>
+        <option3>To share easily</option3>
+        <option4>To avoid password changes</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>159. What should you do if you notice a fire in the office?</question_text>
+        <option1>Activate fire alarm and evacuate</option1>
+        <option2>Ignore and keep working</option2>
+        <option3>Try to extinguish without alerting</option3>
+        <option4>Call a colleague</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>160. How do you properly lift heavy boxes in the office?</question_text>
+        <option1>Use your legs, not back</option1>
+        <option2>Lift with your back only</option2>
+        <option3>Ask a coworker to do it always</option3>
+        <option4>Lift quickly</option4>
+        <correct_option>1</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>161. What is an effective way to prevent repetitive strain injury (RSI)?</question_text>
+        <option1>Take regular breaks and stretch</option1>
+        <option2>Work longer hours</option2>
+        <option3>Ignore pain</option3>
+        <option4>Use only one hand for typing</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>162. How should you handle workplace harassment?</question_text>
+        <option1>Report to HR or supervisor</option1>
+        <option2>Ignore it</option2>
+        <option3>Retaliate immediately</option3>
+        <option4>Discuss with coworkers only</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>163. What is the best practice for email attachments?</question_text>
+        <option1>Scan for viruses before opening</option1>
+        <option2>Open immediately</option2>
+        <option3>Ignore all attachments</option3>
+        <option4>Forward to others before scanning</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>164. Why is data backup important?</question_text>
+        <option1>To prevent data loss</option1>
+        <option2>To increase storage use</option2>
+        <option3>To slow down system</option3>
+        <option4>To share data easily</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>165. How often should you change your computer password?</question_text>
+        <option1>Every 60-90 days</option1>
+        <option2>Never</option2>
+        <option3>Once a year</option3>
+        <option4>Only when prompted</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>166. What should you do if you find a spill on the office floor?</question_text>
+        <option1>Clean it up or report immediately</option1>
+        <option2>Ignore it</option2>
+        <option3>Walk around it</option3>
+        <option4>Call maintenance at the end of the day</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>167. What is phishing?</question_text>
+        <option1>A fraudulent attempt to obtain sensitive info</option1>
+        <option2>Cleaning procedure</option2>
+        <option3>System update</option3>
+        <option4>A fire drill</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>168. What is the first step in handling confidential documents?</question_text>
+        <option1>Identify and classify them properly</option1>
+        <option2>Throw them away immediately</option2>
+        <option3>Share with colleagues</option3>
+        <option4>Scan and email to anyone</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>169. How should you respond to a power outage?</question_text>
+        <option1>Save work and safely shut down computer</option1>
+        <option2>Keep working</option2>
+        <option3>Ignore and continue</option3>
+        <option4>Restart computer immediately</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>170. What should you do if you witness an accident in the office?</question_text>
+        <option1>Report it immediately</option1>
+        <option2>Ignore it</option2>
+        <option3>Help only if trained</option3>
+        <option4>Post on social media</option4>
+        <correct_option>1</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>171. What is the main purpose of a fire extinguisher?</question_text>
+        <option1>To put out small fires</option1>
+        <option2>To decorate the office</option2>
+        <option3>To alarm others</option3>
+        <option4>To open doors</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>172. How should electronic devices be disposed of?</question_text>
+        <option1>Recycle according to company policy</option1>
+        <option2>Throw in trash</option2>
+        <option3>Give to anyone</option3>
+        <option4>Store indefinitely</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>173. Why should you avoid sharing passwords?</question_text>
+        <option1>To maintain security</option1>
+        <option2>To reduce login time</option2>
+        <option3>To save time</option3>
+        <option4>To ease collaboration</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>174. What is the best way to avoid workstation fatigue?</question_text>
+        <option1>Adjust chair and monitor height</option1>
+        <option2>Work continuously without breaks</option2>
+        <option3>Use mobile devices only</option3>
+        <option4>Ignore discomfort</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>175. What should you do if you accidentally spill coffee on your keyboard?</question_text>
+        <option1>Turn off power and report</option1>
+        <option2>Keep using it</option2>
+        <option3>Shake it to dry</option3>
+        <option4>Ignore and continue</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>176. What is the proper way to handle confidential phone calls?</question_text>
+        <option1>Ensure privacy and avoid speaking loudly</option1>
+        <option2>Discuss openly in public areas</option2>
+        <option3>Record without permission</option3>
+        <option4>Ignore confidentiality</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>177. What should you do if you feel unwell at work?</question_text>
+        <option1>Inform supervisor and seek medical help</option1>
+        <option2>Ignore symptoms</option2>
+        <option3>Keep working hard</option3>
+        <option4>Leave without informing</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>178. How often should you clean your workstation?</question_text>
+        <option1>Daily or weekly as per policy</option1>
+        <option2>Never</option2>
+        <option3>Once a year</option3>
+        <option4>Only when dirty</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>179. How do you identify a safe exit during an emergency?</question_text>
+        <option1>Follow marked exit signs</option1>
+        <option2>Use any door</option2>
+        <option3>Exit through windows</option3>
+        <option4>Wait for instructions</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>180. What is the benefit of keeping a clean workspace?</question_text>
+        <option1>Reduces accidents and improves productivity</option1>
+        <option2>Wastes time</option2>
+        <option3>Looks nice only</option3>
+        <option4>Has no impact</option4>
+        <correct_option>1</correct_option>
+    </question>
+
+    <!-- More questions 181-200 continuing similarly -->
+
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>181. What is the correct way to store food in the office?</question_text>
+        <option1>In designated refrigerators only</option1>
+        <option2>On desk</option2>
+        <option3>Anywhere in office</option3>
+        <option4>Open containers on desks</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>182. What is the recommended action if you find a broken chair?</question_text>
+        <option1>Report for repair immediately</option1>
+        <option2>Keep using it</option2>
+        <option3>Ignore it</option3>
+        <option4>Fix it yourself without permission</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>183. What should you do before using office machinery?</question_text>
+        <option1>Read the user manual</option1>
+        <option2>Use immediately</option2>
+        <option3>Ignore instructions</option3>
+        <option4>Ask coworkers to use for you</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>184. How should you dispose of batteries?</question_text>
+        <option1>Recycle at designated points</option1>
+        <option2>Throw in trash</option2>
+        <option3>Burn them</option3>
+        <option4>Store indefinitely</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>185. How do you prevent data theft in the office?</question_text>
+        <option1>Keep sensitive info secure and locked</option1>
+        <option2>Share passwords freely</option2>
+        <option3>Leave computers unlocked</option3>
+        <option4>Ignore security protocols</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>186. What is the purpose of a visitor log?</question_text>
+        <option1>To monitor and control visitor access</option1>
+        <option2>To entertain visitors</option2>
+        <option3>To decorate the entrance</option3>
+        <option4>To keep visitors waiting</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>187. What is the correct way to report IT issues?</question_text>
+        <option1>Submit a ticket to IT helpdesk</option1>
+        <option2>Ignore problem</option2>
+        <option3>Fix by yourself always</option3>
+        <option4>Call coworkers for help only</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>188. What should you do if you lose your company ID badge?</question_text>
+        <option1>Report immediately to security</option1>
+        <option2>Ignore and continue working</option2>
+        <option3>Borrow from coworker</option3>
+        <option4>Use without reporting</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>189. Why is it important to follow meeting schedules?</question_text>
+        <option1>To respect others’ time and stay productive</option1>
+        <option2>To waste time</option2>
+        <option3>To delay work</option3>
+        <option4>To skip meetings</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>190. How should you manage your email inbox?</question_text>
+        <option1>Organize and delete unnecessary emails regularly</option1>
+        <option2>Ignore all emails</option2>
+        <option3>Keep all emails indefinitely</option3>
+        <option4>Forward all emails to others</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>191. What should you do if you experience computer slowdowns?</question_text>
+        <option1>Report to IT for diagnosis</option1>
+        <option2>Ignore it</option2>
+        <option3>Restart repeatedly without reason</option3>
+        <option4>Install unapproved software</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>192. What is the correct posture while working at a desk?</question_text>
+        <option1>Sit upright with feet flat</option1>
+        <option2>Slouch forward</option2>
+        <option3>Lean back without support</option3>
+        <option4>Cross legs tightly</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>193. How often should emergency drills be conducted?</question_text>
+        <option1>Regularly as per company guidelines</option1>
+        <option2>Never</option2>
+        <option3>Once in five years</option3>
+        <option4>Only during hiring</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>194. What should you do if you notice a fire?</question_text>
+        <option1>Activate alarm and evacuate safely</option1>
+        <option2>Ignore and continue working</option2>
+        <option3>Try to extinguish alone always</option3>
+        <option4>Hide under desk</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>195. What is the proper way to use a fire extinguisher?</question_text>
+        <option1>Pull pin, aim, squeeze, sweep</option1>
+        <option2>Throw it</option2>
+        <option3>Use only water</option3>
+        <option4>Ignore and call fire brigade</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>196. What is the importance of workplace ergonomics?</question_text>
+        <option1>Prevents injuries and improves comfort</option1>
+        <option2>Wastes time</option2>
+        <option3>Only for medical staff</option3>
+        <option4>Not important</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>197. How should confidential documents be handled?</question_text>
+        <option1>Store securely and shred when no longer needed</option1>
+        <option2>Leave on desk</option2>
+        <option3>Take home without permission</option3>
+        <option4>Share with unauthorized persons</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>198. How should you respond to a suspicious email?</question_text>
+        <option1>Do not open attachments and report immediately</option1>
+        <option2>Open attachments to check</option2>
+        <option3>Reply with personal info</option3>
+        <option4>Ignore all emails</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>199. What is the purpose of using strong passwords?</question_text>
+        <option1>To protect accounts from unauthorized access</option1>
+        <option2>To make login faster</option2>
+        <option3>To share easily</option3>
+        <option4>To simplify passwords</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Office Staff</test_taker_type>
+        <question_text>200. What should you do if you find unattended bags in the office?</question_text>
+        <option1>Report immediately to security</option1>
+        <option2>Ignore and move on</option2>
+        <option3>Open the bag to check contents</option3>
+        <option4>Take it home</option4>
+        <correct_option>1</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>201. What is the first step when you spot a suspicious person on premises?</question_text>
+        <option1>Ignore and continue your duty</option1>
+        <option2>Approach and question the person politely</option2>
+        <option3>Immediately call the police</option3>
+        <option4>Alert your supervisor</option4>
+        <correct_option>2</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>202. How often should security patrols be conducted in a high-risk area?</question_text>
+        <option1>Once a day</option1>
+        <option2>Every hour</option2>
+        <option3>Every 4 hours</option3>
+        <option4>Only at night</option4>
+        <correct_option>2</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>203. What should you do if you find an unauthorized vehicle parked inside the premises?</question_text>
+        <option1>Report to the parking manager</option1>
+        <option2>Remove the vehicle yourself</option2>
+        <option3>Inform security control and await instructions</option3>
+        <option4>Ignore it</option4>
+        <correct_option>3</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>204. What is the correct procedure for handling lost and found items?</question_text>
+        <option1>Keep them with you until the owner claims</option1>
+        <option2>Hand them over to the designated lost and found department</option2>
+        <option3>Dispose of unclaimed items immediately</option3>
+        <option4>Give them to a colleague</option4>
+        <correct_option>2</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>205. What should you do if a fire alarm sounds in the building?</question_text>
+        <option1>Ignore it if you think it’s a false alarm</option1>
+        <option2>Evacuate immediately and assist others</option2>
+        <option3>Continue patrol as usual</option3>
+        <option4>Call your supervisor after 5 minutes</option4>
+        <correct_option>2</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>206. How do you verify visitor identity before granting access?</question_text>
+        <option1>Check ID and visitor log</option1>
+        <option2>Allow them in without checks</option2>
+        <option3>Ask for their purpose only</option3>
+        <option4>Rely on verbal confirmation from employees</option4>
+        <correct_option>1</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>207. What is the best way to handle aggressive individuals on premises?</question_text>
+        <option1>Engage them physically immediately</option1>
+        <option2>Remain calm, de-escalate, and call for backup</option2>
+        <option3>Ignore and avoid confrontation</option3>
+        <option4>Threaten them to leave</option4>
+        <correct_option>2</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>208. How should you document an incident on the premises?</question_text>
+        <option1>Write a detailed report with time, place, and involved persons</option1>
+        <option2>Just inform your supervisor verbally</option2>
+        <option3>Ignore minor incidents</option3>
+        <option4>Record it in a casual notebook</option4>
+        <correct_option>1</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>209. What should you do if you find a fire extinguisher empty or damaged?</question_text>
+        <option1>Leave it as it is</option1>
+        <option2>Report immediately for replacement or repair</option2>
+        <option3>Try to fix it yourself</option3>
+        <option4>Ignore if not near your patrol area</option4>
+        <correct_option>2</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>210. What is the proper response when an emergency evacuation is ordered?</question_text>
+        <option1>Secure the area before evacuating</option1>
+        <option2>Assist people to the nearest safe exit and check all areas</option2>
+        <option3>Wait for further instructions</option3>
+        <option4>Call family members</option4>
+        <correct_option>2</correct_option>
+    </question>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>211. How should you respond if you find a door propped open in a secure area?</question_text>
+        <option1>Close the door and report the incident</option1>
+        <option2>Leave it open if it’s convenient</option2>
+        <option3>Ask a colleague to close it later</option3>
+        <option4>Ignore it</option4>
+        <correct_option>1</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>212. What is the correct protocol if you witness theft on site?</question_text>
+        <option1>Confront the thief immediately alone</option1>
+        <option2>Observe carefully, gather details, and report to supervisor</option2>
+        <option3>Ignore it to avoid trouble</option3>
+        <option4>Chase the thief</option4>
+        <correct_option>2</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>213. What should you do if a visitor refuses to show identification?</question_text>
+        <option1>Allow entry without ID</option1>
+        <option2>Politely deny access and inform your supervisor</option2>
+        <option3>Force them to show ID</option3>
+        <option4>Ignore and move on</option4>
+        <correct_option>2</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>214. How should you act during a power outage at the facility?</question_text>
+        <option1>Stop all security activities</option1>
+        <option2>Use backup lights and continue patrols as normal</option2>
+        <option3>Leave the premises</option3>
+        <option4>Call emergency services immediately</option4>
+        <correct_option>2</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>215. What is the purpose of conducting regular equipment checks?</question_text>
+        <option1>To maintain readiness and ensure equipment is functional</option1>
+        <option2>To delay your patrols</option2>
+        <option3>To clean the equipment only</option3>
+        <option4>To avoid responsibilities</option4>
+        <correct_option>1</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>216. What is the best way to handle confidential information you come across?</question_text>
+        <option1>Share it with colleagues</option1>
+        <option2>Keep it confidential and report as required</option2>
+        <option3>Discuss it openly</option3>
+        <option4>Post it on social media</option4>
+        <correct_option>2</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>217. How should you respond if you receive a bomb threat call?</question_text>
+        <option1>Stay calm, note details, and report immediately</option1>
+        <option2>Ignore the call</option2>
+        <option3>Try to handle it yourself without informing anyone</option3>
+        <option4>Hang up immediately</option4>
+        <correct_option>1</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>218. What steps should you take during a medical emergency on site?</question_text>
+        <option1>Wait for others to help</option1>
+        <option2>Call medical services and provide first aid if trained</option2>
+        <option3>Ignore it and continue patrol</option3>
+        <option4>Move the injured person yourself without help</option4>
+        <correct_option>2</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>219. How often should visitor logs be updated and reviewed?</question_text>
+        <option1>Once a week</option1>
+        <option2>Daily and at the end of each shift</option2>
+        <option3>Only when visitors arrive</option3>
+        <option4>Never</option4>
+        <correct_option>2</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>220. What should you do if you find emergency exits blocked?</question_text>
+        <option1>Remove the blockage and report the hazard</option1>
+        <option2>Ignore it</option2>
+        <option3>Close the exit doors</option3>
+        <option4>Lock the exits</option4>
+        <correct_option>1</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>221. What is the proper response when a fire extinguisher is used?</question_text>
+        <option1>Replace or refill it immediately</option1>
+        <option2>Ignore and wait for supervisor instructions</option2>
+        <option3>Dispose of it</option3>
+        <option4>Use it again</option4>
+        <correct_option>1</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>222. When should you escalate an incident to higher authorities?</question_text>
+        <option1>Only if the incident involves violence or theft</option1>
+        <option2>Whenever safety or security is compromised</option2>
+        <option3>Never escalate</option3>
+        <option4>Only after 24 hours</option4>
+        <correct_option>2</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>223. What is the importance of maintaining a security logbook?</question_text>
+        <option1>To record all activities and incidents for reference</option1>
+        <option2>To decorate the security office</option2>
+        <option3>To avoid work</option3>
+        <option4>To share stories with colleagues</option4>
+        <correct_option>1</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>224. What action should you take if you discover a breach in the perimeter fence?</question_text>
+        <option1>Fix it yourself immediately</option1>
+        <option2>Report to maintenance and supervisor</option2>
+        <option3>Ignore it if minor</option3>
+        <option4>Close the gate</option4>
+        <correct_option>2</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>225. How should you handle suspicious packages found in common areas?</question_text>
+        <option1>Move the package to a safe place</option1>
+        <option2>Do not touch and report immediately</option2>
+        <option3>Open the package to inspect</option3>
+        <option4>Ignore it</option4>
+        <correct_option>2</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>226. What is the protocol if an employee loses their access card?</question_text>
+        <option1>Ignore it</option1>
+        <option2>Report loss and request card deactivation</option2>
+        <option3>Let the employee keep using the card</option3>
+        <option4>Make a new card without reporting</option4>
+        <correct_option>2</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>227. How should you behave when dealing with visitors to maintain professionalism?</question_text>
+        <option1>Be polite and helpful</option1>
+        <option2>Be strict and unfriendly</option2>
+        <option3>Ignore visitor requests</option3>
+        <option4>Share personal opinions freely</option4>
+        <correct_option>1</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>228. When is it appropriate to use physical force in security duty?</question_text>
+        <option1>Only as a last resort to protect yourself or others</option1>
+        <option2>Whenever you feel like it</option2>
+        <option3>To intimidate visitors</option3>
+        <option4>Never</option4>
+        <correct_option>1</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>229. What should be done if you detect signs of tampering with security cameras?</question_text>
+        <option1>Report immediately to security management</option1>
+        <option2>Ignore if cameras still work</option2>
+        <option3>Try to fix the cameras yourself</option3>
+        <option4>Remove the cameras</option4>
+        <correct_option>1</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>230. How can you maintain vigilance during long shifts?</question_text>
+        <option1>Take regular breaks and stay hydrated</option1>
+        <option2>Ignore all distractions and keep moving</option2>
+        <option3>Use your phone frequently</option3>
+        <option4>Sleep during patrol</option4>
+        <correct_option>1</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>231. What is the procedure if you observe a fire starting?</question_text>
+        <option1>Attempt to extinguish if safe, then alert fire department</option1>
+        <option2>Ignore and continue patrol</option2>
+        <option3>Evacuate immediately without alerting others</option3>
+        <option4>Call the media</option4>
+        <correct_option>1</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>232. What is the most important factor when giving a security report?</question_text>
+        <option1>Accuracy and completeness</option1>
+        <option2>Making it brief</option2>
+        <option3>Writing creatively</option3>
+        <option4>Leaving out minor details</option4>
+        <correct_option>1</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>233. What should you do if you are unsure about a visitor’s identity?</question_text>
+        <option1>Allow access anyway</option1>
+        <option2>Ask for additional identification or verify with their host</option2>
+        <option3>Ignore the suspicion</option3>
+        <option4>Escort them out immediately</option4>
+        <correct_option>2</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>234. What should be your action when encountering hazardous materials?</question_text>
+        <option1>Handle them carefully and report immediately</option1>
+        <option2>Ignore them</option2>
+        <option3>Remove them yourself without equipment</option3>
+        <option4>Dispose of them in regular trash</option4>
+        <correct_option>1</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>235. How often should you review emergency evacuation plans?</question_text>
+        <option1>Once a year</option1>
+        <option2>Every month</option2>
+        <option3>Only when hired</option3>
+        <option4>Never</option4>
+        <correct_option>2</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>236. What is the correct way to secure confidential documents?</question_text>
+        <option1>Leave them on your desk</option1>
+        <option2>Store them in locked cabinets</option2>
+        <option3>Take them home</option3>
+        <option4>Give them to anyone who asks</option4>
+        <correct_option>2</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>237. How do you prevent unauthorized access to sensitive areas?</question_text>
+        <option1>Enforce access control and check IDs</option1>
+        <option2>Ignore access control</option2>
+        <option3>Let anyone enter</option3>
+        <option4>Remove locks</option4>
+        <correct_option>1</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>238. What is the best way to handle conflicts between employees on premises?</question_text>
+        <option1>Stay neutral and report to HR</option1>
+        <option2>Join the conflict</option2>
+        <option3>Ignore it</option3>
+        <option4>Take sides</option4>
+        <correct_option>1</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>239. How should you act when escorting VIP visitors?</question_text>
+        <option1>Be attentive, polite, and ensure their safety</option1>
+        <option2>Ignore their requests</option2>
+        <option3>Rush through the escort</option3>
+        <option4>Leave them unattended</option4>
+        <correct_option>1</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>240. What should you do if you witness a colleague violating security protocols?</question_text>
+        <option1>Confront them aggressively</option1>
+        <option2>Report the violation to your supervisor</option2>
+        <option3>Ignore it</option3>
+        <option4>Join them</option4>
+        <correct_option>2</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>241. How do you maintain communication during a security emergency?</question_text>
+        <option1>Use designated radios or phones</option1>
+        <option2>Yell for help</option2>
+        <option3>Use personal mobile phones only</option3>
+        <option4>Ignore communication</option4>
+        <correct_option>1</correct_option>
+    </question>
+
+
+
+
+
+
+
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>243. What action is important if you find a fire door blocked?</question_text>
+        <option1>Remove the obstruction immediately</option1>
+        <option2>Leave it as is</option2>
+        <option3>Lock the door</option3>
+        <option4>Report next day</option4>
+        <correct_option>1</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>244. How often should you update yourself on company security policies?</question_text>
+        <option1>Whenever updated or at regular intervals</option1>
+        <option2>Never</option2>
+        <option3>Only when hired</option3>
+        <option4>Once every five years</option4>
+        <correct_option>1</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>245. How do you secure your post during night shifts?</question_text>
+        <option1>Remain alert and follow all security protocols</option1>
+        <option2>Sleep during the shift</option2>
+        <option3>Leave the post unattended</option3>
+        <option4>Ignore suspicious activity</option4>
+        <correct_option>1</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>246. What is the best practice when handling keys for secured areas?</question_text>
+        <option1>Keep them secure and only allow authorized use</option1>
+        <option2>Share keys with all employees</option2>
+        <option3>Leave keys unattended</option3>
+        <option4>Duplicate keys without authorization</option4>
+        <correct_option>1</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>247. What should you do if a colleague is not following security protocols?</question_text>
+        <option1>Report the behavior to your supervisor</option1>
+        <option2>Ignore it</option2>
+        <option3>Confront aggressively</option3>
+        <option4>Join them</option4>
+        <correct_option>1</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>248. How should you document incidents during your shift?</question_text>
+        <option1>Write detailed, factual reports promptly</option1>
+        <option2>Rely on memory only</option2>
+        <option3>Tell your friends informally</option3>
+        <option4>Skip documentation</option4>
+        <correct_option>1</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>249. What is the role of communication in security operations?</question_text>
+        <option1>Essential for coordination and response</option1>
+        <option2>Not necessary</option2>
+        <option3>Only for socializing</option3>
+        <option4>To waste time</option4>
+        <correct_option>1</correct_option>
+    </question>
+
+    <question>
+        <test_taker_type>Security Personnel</test_taker_type>
+        <question_text>250. How do you ensure your own safety while on duty?</question_text>
+        <option1>Follow protocols and stay aware of surroundings</option1>
+        <option2>Take risks to catch intruders</option2>
+        <option3>Ignore safety rules</option3>
+        <option4>Work alone without backup</option4>
+        <correct_option>1</correct_option>
+    </question>
+</questions>

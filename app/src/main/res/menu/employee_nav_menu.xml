@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/admin_nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home"/>
+
+
+
+        <item
+            android:id="@+id/admin_nav_dashboard"
+            android:icon="@drawable/dashboard_tile_remove_svgrepo_com"
+            android:title="Dashboard"/>
+
+        <item
+            android:id="@+id/admin_nav_reports"
+            android:icon="@drawable/reports"
+            android:title="Reports and Analytics"/>
+
+        <item
+            android:id="@+id/admin_nav_leave"
+            android:icon="@drawable/leave"
+            android:title="Leave Management"/>
+
+
+        <item
+            android:id="@+id/admin_nav_live_tracking"
+            android:icon="@drawable/geofencing"
+            android:title="Mark Attendance"/>
+
+        <item
+            android:id="@+id/payroll"
+            android:icon="@drawable/geofencing"
+            android:title="Payroll Lookup"/>
+
+
+    </group>
+    <item
+        android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/admin_nav_logout"
+                android:icon="@drawable/logout"
+                android:title="Logout"/>
+        </menu>
+
+    </item>
+
+</menu>

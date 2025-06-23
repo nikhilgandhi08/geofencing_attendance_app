@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_card_margin_horizontal">16dp</dimen>
+    <dimen name="activity_card_margin_vertical">4dp</dimen>
+    <dimen name="activity_icon_size">40dp</dimen>
+    <dimen name="activity_card_padding">16dp</dimen>
+    <dimen name="activity_card_elevation">2dp</dimen>
+    <dimen name="activity_card_corner_radius">8dp</dimen>
+    <dimen name="status_badge_padding_horizontal">8dp</dimen>
+    <dimen name="status_badge_padding_vertical">2dp</dimen>
+    <dimen name="status_badge_corner_radius">8dp</dimen>
+</resources>

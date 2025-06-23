@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions>
+
+    <!-- Tech Employees: Questions 1-50 -->
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>1. What does JVM stand for?</question_text>
+        <option1>Java Virtual Machine</option1>
+        <option2>Java Variable Method</option2>
+        <option3>Java Visual Model</option3>
+        <option4>Java Verified Memory</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>2. Which protocol is used for secure HTTP connections?</question_text>
+        <option1>FTP</option1>
+        <option2>HTTPS</option2>
+        <option3>SMTP</option3>
+        <option4>TCP</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>3. What does CSS stand for?</question_text>
+        <option1>Creative Style Sheets</option1>
+        <option2>Cascading Style Sheets</option2>
+        <option3>Computer Style Sheets</option3>
+        <option4>Colorful Style Sheets</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>4. What is the main function of DNS?</question_text>
+        <option1>Translate domain names to IP addresses</option1>
+        <option2>Host websites</option2>
+        <option3>Provide email services</option3>
+        <option4>Secure network traffic</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>5. Which language is primarily used for Android app development?</question_text>
+        <option1>Swift</option1>
+        <option2>Java</option2>
+        <option3>Kotlin</option3>
+        <option4>Both Java and Kotlin</option4>
+        <correct_option>4</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>6. What is Git used for?</question_text>
+        <option1>Version control</option1>
+        <option2>Database management</option2>
+        <option3>Graphic design</option3>
+        <option4>Network configuration</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>7. What does API stand for?</question_text>
+        <option1>Application Programming Interface</option1>
+        <option2>Application Performance Index</option2>
+        <option3>Advanced Programming Integration</option3>
+        <option4>Applied Protocol Interface</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>8. Which HTML tag is used to create a hyperlink?</question_text>
+        <option1>&lt;link&gt;</option1>
+        <option2>&lt;a&gt;</option2>
+        <option3>&lt;href&gt;</option3>
+        <option4>&lt;hyperlink&gt;</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>9. What is the primary purpose of SQL?</question_text>
+        <option1>Querying databases</option1>
+        <option2>Styling web pages</option2>
+        <option3>Writing scripts</option3>
+        <option4>Designing software architecture</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>10. Which of these is NOT a programming paradigm?</question_text>
+        <option1>Object-Oriented</option1>
+        <option2>Functional</option2>
+        <option3>Procedural</option3>
+        <option4>Graphical</option4>
+        <correct_option>4</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>11. What does HTTP stand for?</question_text>
+        <option1>HyperText Transfer Protocol</option1>
+        <option2>HighText Transfer Protocol</option2>
+        <option3>Hyper Transfer Text Protocol</option3>
+        <option4>HyperText Transmission Protocol</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>12. Which of the following is a NoSQL database?</question_text>
+        <option1>MySQL</option1>
+        <option2>MongoDB</option2>
+        <option3>Oracle DB</option3>
+        <option4>PostgreSQL</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>13. What is a REST API?</question_text>
+        <option1>Random Execution Server Technology</option1>
+        <option2>Representational State Transfer</option2>
+        <option3>Real-time Embedded System Technology</option3>
+        <option4>Remote Execution Service Tool</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>14. What language is primarily used for iOS app development?</question_text>
+        <option1>Java</option1>
+        <option2>Kotlin</option2>
+        <option3>Swift</option3>
+        <option4>Objective-C</option4>
+        <correct_option>3</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>15. Which command is used to initialize a new Git repository?</question_text>
+        <option1>git init</option1>
+        <option2>git start</option2>
+        <option3>git create</option3>
+        <option4>git new</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>16. What is the use of the 'this' keyword in Java?</question_text>
+        <option1>Refers to current object</option1>
+        <option2>Refers to parent class</option2>
+        <option3>Refers to static methods</option3>
+        <option4>None of the above</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>17. What does JSON stand for?</question_text>
+        <option1>JavaScript Object Notation</option1>
+        <option2>Java Syntax Object Notation</option2>
+        <option3>JavaScript Oriented Notation</option3>
+        <option4>JavaScript Original Notation</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>18. Which of the following is NOT a programming language?</question_text>
+        <option1>Python</option1>
+        <option2>HTML</option2>
+        <option3>Java</option3>
+        <option4>C++</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>19. What is the main purpose of a firewall?</question_text>
+        <option1>Manage network traffic</option1>
+        <option2>Prevent unauthorized access</option2>
+        <option3>Backup data</option3>
+        <option4>Speed up internet connection</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>20. What does IDE stand for?</question_text>
+        <option1>Integrated Development Environment</option1>
+        <option2>Internal Design Editor</option2>
+        <option3>Independent Development Engine</option3>
+        <option4>Integrated Design Environment</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>21. Which is a frontend JavaScript framework?</question_text>
+        <option1>Angular</option1>
+        <option2>Django</option2>
+        <option3>Flask</option3>
+        <option4>Laravel</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>22. What is the use of the 'git clone' command?</question_text>
+        <option1>Create a new branch</option1>
+        <option2>Copy a remote repository locally</option2>
+        <option3>Commit changes</option3>
+        <option4>Push changes to remote</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>23. Which company developed the Java programming language?</question_text>
+        <option1>Microsoft</option1>
+        <option2>Sun Microsystems</option2>
+        <option3>Apple</option3>
+        <option4>Google</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>24. What is the default port number for HTTP?</question_text>
+        <option1>21</option1>
+        <option2>80</option2>
+        <option3>443</option3>
+        <option4>8080</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>25. Which keyword is used to create a class in Java?</question_text>
+        <option1>class</option1>
+        <option2>Class</option2>
+        <option3>new</option3>
+        <option4>def</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>26. What is the output of 'console.log(typeof null)' in JavaScript?</question_text>
+        <option1>"null"</option1>
+        <option2>"object"</option2>
+        <option3>"undefined"</option3>
+        <option4>"boolean"</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>27. Which of these is NOT a database management system?</question_text>
+        <option1>Oracle</option1>
+        <option2>MongoDB</option2>
+        <option3>Postman</option3>
+        <option4>MySQL</option4>
+        <correct_option>3</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>28. What does SSL stand for?</question_text>
+        <option1>Secure Socket Layer</option1>
+        <option2>Secure System Link</option2>
+        <option3>System Secure Layer</option3>
+        <option4>Socket Secure Link</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>29. Which of these is a NoSQL database?</question_text>
+        <option1>Oracle</option1>
+        <option2>MySQL</option2>
+        <option3>MongoDB</option3>
+        <option4>SQL Server</option4>
+        <correct_option>3</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>30. Which symbol is used to denote an ID selector in CSS?</question_text>
+        <option1>#</option1>
+        <option2>.</option2>
+        <option3>*</option3>
+        <option4>@</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>31. What does DOM stand for?</question_text>
+        <option1>Document Object Model</option1>
+        <option2>Data Object Model</option2>
+        <option3>Document Orientation Model</option3>
+        <option4>Data Orientation Model</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>32. What is the command to create a new React app using npx?</question_text>
+        <option1>npx create-react-app appname</option1>
+        <option2>npm create react app appname</option2>
+        <option3>npx react-create-app appname</option3>
+        <option4>npm new react app appname</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>33. Which HTTP method is used to retrieve data?</question_text>
+        <option1>POST</option1>
+        <option2>GET</option2>
+        <option3>PUT</option3>
+        <option4>DELETE</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>34. What does CPU stand for?</question_text>
+        <option1>Central Processing Unit</option1>
+        <option2>Computer Processing Unit</option2>
+        <option3>Central Performance Unit</option3>
+        <option4>Computer Performance Unit</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>35. Which of these is a backend JavaScript runtime environment?</question_text>
+        <option1>React</option1>
+        <option2>Angular</option2>
+        <option3>Node.js</option3>
+        <option4>Vue.js</option4>
+        <correct_option>3</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>36. What is the main purpose of Docker?</question_text>
+        <option1>Virtualization</option1>
+        <option2>Containerization</option2>
+        <option3>Monitoring</option3>
+        <option4>Orchestration</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>37. What is the main protocol used to send emails?</question_text>
+        <option1>FTP</option1>
+        <option2>SMTP</option2>
+        <option3>HTTP</option3>
+        <option4>IMAP</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>38. What is the main difference between '==' and '===' in JavaScript?</question_text>
+        <option1>'==' compares type and value, '===' compares only value</option1>
+        <option2>'==' compares only value, '===' compares type and value</option2>
+        <option3>Both are the same</option3>
+        <option4>'==' is strict equality, '===' is loose equality</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>39. Which of these is an example of a cloud computing platform?</question_text>
+        <option1>Azure</option1>
+        <option2>GitHub</option2>
+        <option3>Docker</option3>
+        <option4>Postman</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>40. Which programming language is known for its use in statistical computing?</question_text>
+        <option1>Python</option1>
+        <option2>R</option2>
+        <option3>Java</option3>
+        <option4>C#</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>41. What does CSS 'float' property do?</question_text>
+        <option1>Positions elements horizontally</option1>
+        <option2>Creates animation</option2>
+        <option3>Changes color of element</option3>
+        <option4>None of the above</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>42. What is the file extension for Python files?</question_text>
+        <option1>.py</option1>
+        <option2>.java</option2>
+        <option3>.js</option3>
+        <option4>.html</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>43. Which of the following is a markup language?</question_text>
+        <option1>Python</option1>
+        <option2>HTML</option2>
+        <option3>Java</option3>
+        <option4>C++</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>44. What is the output of print("Hello" + "World") in Python?</question_text>
+        <option1>Hello World</option1>
+        <option2>HelloWorld</option2>
+        <option3>Hello+World</option3>
+        <option4>Error</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>45. Which command is used to install packages in Node.js?</question_text>
+        <option1>npm install</option1>
+        <option2>node install</option2>
+        <option3>npm add</option3>
+        <option4>node add</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>46. Which SQL statement is used to retrieve data?</question_text>
+        <option1>SELECT</option1>
+        <option2>INSERT</option2>
+        <option3>UPDATE</option3>
+        <option4>DELETE</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>47. What is the use of the 'break' statement in programming?</question_text>
+        <option1>To exit a loop or switch statement</option1>
+        <option2>To skip the current iteration</option2>
+        <option3>To start a loop</option3>
+        <option4>To declare a variable</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>48. What is a function in programming?</question_text>
+        <option1>A reusable block of code</option1>
+        <option2>A variable</option2>
+        <option3>An operator</option3>
+        <option4>A data type</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>49. Which of the following is a CSS framework?</question_text>
+        <option1>Bootstrap</option1>
+        <option2>React</option2>
+        <option3>Node.js</option3>
+        <option4>Flask</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Tech Employee</test_taker_type>
+        <question_text>50. What is the main purpose of HTTPS?</question_text>
+        <option1>Faster loading</option1>
+        <option2>Secure communication</option2>
+        <option3>Better SEO</option3>
+        <option4>Web hosting</option4>
+        <correct_option>2</correct_option>
+    </question>
+
+    <!-- Manager: Questions 51-100 -->
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>51. What is the primary role of a project manager?</question_text>
+        <option1>Writing code</option1>
+        <option2>Managing resources and timelines</option2>
+        <option3>Designing UI</option3>
+        <option4>Testing software</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>52. What does KPI stand for?</question_text>
+        <option1>Key Performance Indicator</option1>
+        <option2>Knowledge Process Integration</option2>
+        <option3>Key Process Initiative</option3>
+        <option4>Knowledge Performance Indicator</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>53. What is Scrum?</question_text>
+        <option1>A programming language</option1>
+        <option2>A project management framework</option2>
+        <option3>A database</option3>
+        <option4>A software testing tool</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>54. What is a Gantt chart used for?</question_text>
+        <option1>Tracking project schedules</option1>
+        <option2>Designing websites</option2>
+        <option3>Writing code</option3>
+        <option4>Database management</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>55. What does RACI stand for in project management?</question_text>
+        <option1>Responsible, Accountable, Consulted, Informed</option1>
+        <option2>Reviewed, Approved, Consulted, Implemented</option2>
+        <option3>Responsible, Accounted, Controlled, Informed</option3>
+        <option4>Reviewed, Accountable, Controlled, Informed</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>56. What is the main purpose of a risk management plan?</question_text>
+        <option1>Identify and mitigate risks</option1>
+        <option2>Increase project cost</option2>
+        <option3>Design software architecture</option3>
+        <option4>Manage team communication</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>57. What is the main function of a stakeholder?</question_text>
+        <option1>To develop software</option1>
+        <option2>To have an interest or concern in the project</option2>
+        <option3>To test software</option3>
+        <option4>To manage code repositories</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>58. What does MVP stand for in product development?</question_text>
+        <option1>Most Valuable Product</option1>
+        <option2>Minimum Viable Product</option2>
+        <option3>Maximum Value Proposition</option3>
+        <option4>Minimum Value Product</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>59. Which of these is a common agile methodology?</question_text>
+        <option1>Waterfall</option1>
+        <option2>Scrum</option2>
+        <option3>Prince2</option3>
+        <option4>Six Sigma</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>60. What is the primary focus of Kanban boards?</question_text>
+        <option1>Time tracking</option1>
+        <option2>Visualizing work in progress</option2>
+        <option3>Budget management</option3>
+        <option4>Writing code</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>61. What is a sprint in agile?</question_text>
+        <option1>A short, time-boxed period to complete tasks</option1>
+        <option2>A project milestone</option2>
+        <option3>A budget review</option3>
+        <option4>A software bug</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>62. Which tool is commonly used for version control?</question_text>
+        <option1>Git</option1>
+        <option2>JIRA</option2>
+        <option3>Trello</option3>
+        <option4>Slack</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>63. What is scope creep?</question_text>
+        <option1>When project requirements increase beyond the original plan</option1>
+        <option2>When project is completed early</option2>
+        <option3>When project budget decreases</option3>
+        <option4>When team members leave</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>64. What is the main advantage of agile methodology?</question_text>
+        <option1>Flexibility and iterative progress</option1>
+        <option2>Strict documentation</option2>
+        <option3>Fixed scope</option3>
+        <option4>Long development cycles</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>65. Which role is responsible for maximizing product value in Scrum?</question_text>
+        <option1>Scrum Master</option1>
+        <option2>Product Owner</option2>
+        <option3>Developer</option3>
+        <option4>Stakeholder</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>66. What is a burndown chart used for?</question_text>
+        <option1>Tracking remaining work in a sprint</option1>
+        <option2>Budget tracking</option2>
+        <option3>Code quality metrics</option3>
+        <option4>Hiring process</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>67. What is the main goal of change management?</question_text>
+        <option1>To handle changes smoothly</option1>
+        <option2>To stop changes</option2>
+        <option3>To increase costs</option3>
+        <option4>To fire employees</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>68. Which of these is NOT a project management software?</question_text>
+        <option1>Asana</option1>
+        <option2>JIRA</option2>
+        <option3>Slack</option3>
+        <option4>MS Project</option4>
+        <correct_option>3</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>69. What does ROI stand for?</question_text>
+        <option1>Return on Investment</option1>
+        <option2>Rate of Interest</option2>
+        <option3>Return on Input</option3>
+        <option4>Rate of Investment</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>70. What is a stakeholder analysis?</question_text>
+        <option1>Identifying and assessing stakeholders</option1>
+        <option2>Writing code for stakeholders</option2>
+        <option3>Testing software features</option3>
+        <option4>Managing team meetings</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>71. What is the key feature of Lean methodology?</question_text>
+        <option1>Reducing waste</option1>
+        <option2>Increasing documentation</option2>
+        <option3>Lengthy processes</option3>
+        <option4>Strict hierarchy</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>72. What is the role of a Scrum Master?</question_text>
+        <option1>To manage the development team</option1>
+        <option2>To facilitate the Scrum process</option2>
+        <option3>To write code</option3>
+        <option4>To decide project budget</option4>
+        <correct_option>2</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>73. What is timeboxing in agile?</question_text>
+        <option1>Allocating fixed time periods for activities</option1>
+        <option2>Extending deadlines</option2>
+        <option3>Delaying tasks</option3>
+        <option4>Writing code quickly</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>74. Which of these is an example of a communication tool?</question_text>
+        <option1>Slack</option1>
+        <option2>Git</option2>
+        <option3>Jenkins</option3>
+        <option4>Docker</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>75. What is the main use of JIRA?</question_text>
+        <option1>Bug tracking and project management</option1>
+        <option2>Writing code</option2>
+        <option3>Designing UI</option3>
+        <option4>Database management</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>76. What is the critical path in project management?</question_text>
+        <option1>The longest sequence of tasks determining project duration</option1>
+        <option2>The shortest sequence of tasks</option2>
+        <option3>The budget allocation plan</option3>
+        <option4>Team communication plan</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>77. What is earned value management (EVM)?</question_text>
+        <option1>A technique to measure project performance</option1>
+        <option2>A coding framework</option2>
+        <option3>A database tool</option3>
+        <option4>A testing methodology</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>78. What is a project charter?</question_text>
+        <option1>A document that formally authorizes a project</option1>
+        <option2>A coding guideline</option2>
+        <option3>A meeting agenda</option3>
+        <option4>A software tool</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>79. What is a user story in agile?</question_text>
+        <option1>A short description of a feature from an end-user perspective</option1>
+        <option2>A coding task</option2>
+        <option3>A bug report</option3>
+        <option4>A testing script</option4>
+        <correct_option>1</correct_option>
+    </question>
+    <question>
+        <test_taker_type>Manager</test_taker_type>
+        <question_text>80. What is velocity in agile?</question_text>
+        <option1>The rate at which a team completes work</option1>
+        <option2>Speed of coding</option2>
+        <option3>Time spent in meetings</option3>
+        <option4>Budget consumption rate</option4>
+        <correct_option>1</correct_option>
+    </question>
+</questions>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="@color/background_light">
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/ic_error"
+        app:tint="@color/error_color"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tv_error_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/error_loading_data"
+        android:textSize="16sp"
+        android:textColor="@color/text_primary"
+        android:textAlignment="center"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btn_retry"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="@string/refresh"
+        android:textColor="@color/white"
+        android:background="@drawable/button_rounded_primary"
+        android:paddingHorizontal="24dp"
+        android:textAllCaps="false" />
+
+</LinearLayout>

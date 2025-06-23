@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/textView_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payroll History"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="12dp"
+        />
+
+    <!-- RecyclerView for payroll list -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_payrollHistory"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical"
+        />
+
+    <!-- Empty state text -->
+    <TextView
+        android:id="@+id/textView_empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No payroll history available."
+        android:textSize="16sp"
+        android:textColor="#888888"
+        android:gravity="center"
+        android:visibility="gone"
+        android:paddingTop="20dp"
+        />
+
+</LinearLayout>

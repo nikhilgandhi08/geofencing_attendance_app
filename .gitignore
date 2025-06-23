@@ -1,0 +1,46 @@
+# Android Studio project files
+*.iml
+.idea/
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# Gradle files
+.gradle/
+*.gradle
+!gradle-wrapper.jar
+
+# Local configuration file (DO NOT COMMIT)
+local.properties
+
+# Build and generated files
+/build/
+.cxx/
+.externalNativeBuild/
+captures/
+output.json
+
+# Keystore files (DO NOT UPLOAD)
+*.jks
+*.keystore
+
+# APK and AAB files
+*.apk
+*.aab
+
+# Logs and memory dumps
+*.log
+*.hprof
+
+# IntelliJ and project-specific files
+*.ipr
+*.iws
+
+# Node.js dependencies (if using React Native)
+node_modules/
+
+# Mac OS specific files
+.DS_Store

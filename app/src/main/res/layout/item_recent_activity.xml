@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="4dp"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="8dp"
+    app:cardBackgroundColor="@color/card_background1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <!-- Activity Icon -->
+        <ImageView
+            android:id="@+id/iv_activity_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_activity_default"
+            android:background="@drawable/circular_background_activity"
+            android:padding="8dp"
+            android:contentDescription="@string/activity_icon" />
+
+        <!-- Activity Content -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="12dp"
+            android:orientation="vertical">
+
+            <!-- Activity Title -->
+            <TextView
+                android:id="@+id/tv_activity_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Employee Checked In"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary1"
+                android:maxLines="1"
+                android:ellipsize="end" />
+
+            <!-- Activity Description -->
+            <TextView
+                android:id="@+id/tv_activity_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="John Doe logged in at 09:15 AM"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/text_secondary"
+                android:layout_marginTop="2dp"
+                android:maxLines="2"
+                android:ellipsize="end" />
+
+            <!-- Employee Email (for admin reference) -->
+            <TextView
+                android:id="@+id/tv_employee_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="john.doe@company.com"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/text_tertiary"
+                android:layout_marginTop="1dp"
+                android:textSize="11sp"
+                android:maxLines="1"
+                android:ellipsize="end" />
+
+        </LinearLayout>
+
+        <!-- Right Side Content -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="end">
+
+            <!-- Status Indicator -->
+            <TextView
+                android:id="@+id/tv_activity_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SUCCESS"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold"
+                android:textColor="@color/success_color"
+                android:background="@drawable/status_background_success"
+                android:paddingHorizontal="8dp"
+                android:paddingVertical="2dp"
+                android:textSize="10sp"
+                android:visibility="visible" />
+
+            <!-- Timestamp -->
+            <TextView
+                android:id="@+id/tv_activity_timestamp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 mins ago"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/text_tertiary"
+                android:layout_marginTop="4dp"
+                android:textSize="11sp" />
+
+            <!-- Location Info (for attendance activities) -->
+            <LinearLayout
+                android:id="@+id/ll_location_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="2dp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:src="@drawable/ic_location_small"
+                    android:contentDescription="@string/location_icon" />
+
+                <TextView
+                    android:id="@+id/tv_geofence_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Inside"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/success_color"
+                    android:layout_marginStart="2dp"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Expandable Details Section (Optional) -->
+    <LinearLayout
+        android:id="@+id/ll_expandable_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/background_light_secondary"
+        android:padding="16dp"
+        android:layout_marginTop="8dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_additional_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Additional details about this activity..."
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/text_secondary" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

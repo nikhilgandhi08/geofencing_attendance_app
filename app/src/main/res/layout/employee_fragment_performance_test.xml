@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/pending_test_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pending Test"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/test_due_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Due Date:"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/test_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test Type:"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/no_test_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You have no pending test right now."
+        android:gravity="center"
+        android:textStyle="italic"
+        android:layout_marginTop="32dp"
+        android:textSize="16sp" />
+
+</LinearLayout>
