@@ -379,23 +379,14 @@
                 </LinearLayout>
 
                 <!-- Chart Container -->
-                <FrameLayout
-                    android:id="@+id/fl_attendance_chart"
+                <com.github.mikephil.charting.charts.BarChart
+                    android:id="@+id/bar_chart_work_hours"
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     android:background="@drawable/ripple_background"
                     android:padding="16dp"
-                    android:contentDescription="@string/attendance_chart">
+                    android:contentDescription="@string/work_hours_chart" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/chart_placeholder"
-                        android:textColor="@color/text_secondary2"
-                        android:fontFamily="sans-serif"
-                        android:layout_gravity="center" />
-
-                </FrameLayout>
 
             </LinearLayout>
 
@@ -444,23 +435,14 @@
                 </LinearLayout>
 
                 <!-- Chart Container -->
-                <FrameLayout
-                    android:id="@+id/fl_time_pattern_chart"
+                <com.github.mikephil.charting.charts.ScatterChart
+                    android:id="@+id/scatter_chart_login_logout"
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     android:background="@drawable/ripple_background"
                     android:padding="16dp"
-                    android:contentDescription="@string/time_pattern_chart">
+                    android:contentDescription="@string/time_pattern_chart" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/chart_placeholder"
-                        android:textColor="@color/text_secondary2"
-                        android:fontFamily="sans-serif"
-                        android:layout_gravity="center" />
-
-                </FrameLayout>
 
             </LinearLayout>
 
@@ -589,11 +571,14 @@
                 </LinearLayout>
 
                 <!-- Calendar Widget -->
-                <CalendarView
+                <com.prolificinteractive.materialcalendarview.MaterialCalendarView
                     android:id="@+id/cv_attendance_calendar"
                     android:layout_width="match_parent"
                     android:layout_height="300dp"
-                    android:contentDescription="@string/attendance_calendar" />
+                    app:mcv_showOtherDates="all"
+                    app:mcv_selectionColor="@color/primary_blue"
+                    app:mcv_tileSize="44dp"/>
+
 
             </LinearLayout>
 

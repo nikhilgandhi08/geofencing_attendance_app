@@ -63,5 +63,10 @@ dependencies {
     implementation(libs.androidx.fragment.ktx)
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
     implementation(libs.androidx.lifecycle.livedata.ktx)
+
+    implementation(libs.material.calendar) {
+        exclude(group = "com.android.support", module = "support-compat")
+    }
+
 }
 

@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-  
-</selector>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:inset="6dp">
+    <shape android:shape="oval">
+        <solid android:color="@color/orange_500" /> <!-- Light yellow -->
+    </shape>
+</inset>
+

@@ -92,7 +92,7 @@
 
     <!-- Visual Reports -->
     <string name="visual_reports">📈 Visual Reports &amp; Insights</string>
-    <string name="monthly_attendance_trend">📅 Monthly Attendance Trend</string>
+    <string name="monthly_attendance_trend">⏱️ Daily Working Hours</string>
     <string name="login_logout_pattern">🕒 Login–Logout Pattern</string>
     <string name="chart_placeholder">Chart will be displayed here</string>
 
@@ -263,6 +263,7 @@
     <string name="appraisals">Appraisals</string>
     <string name="employee_activity_icon">Employee Activity Icon</string>
     <string name="avg_work_hours_icon">Average work hours icon</string>
+    <string name="work_hours_chart">Work hours chart</string>
 
 
     <string-array name="user_types">
