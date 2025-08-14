@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:background="@color/background_light2">
 
     <!-- Title -->
     <TextView
@@ -15,9 +16,10 @@
         android:text="Payroll History"
         android:textSize="22sp"
         android:textStyle="bold"
+        android:textColor="@color/text_primary2"
+        android:fontFamily="sans-serif-medium"
         android:layout_gravity="center_horizontal"
-        android:paddingBottom="12dp"
-        />
+        android:paddingBottom="12dp" />
 
     <!-- RecyclerView for payroll list -->
     <androidx.recyclerview.widget.RecyclerView
@@ -25,8 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:scrollbars="vertical"
-        />
+        android:scrollbars="vertical" />
 
     <!-- Empty state text -->
     <TextView
@@ -35,10 +36,10 @@
         android:layout_height="wrap_content"
         android:text="No payroll history available."
         android:textSize="16sp"
-        android:textColor="#888888"
+        android:textColor="@color/text_secondary2"
+        android:fontFamily="sans-serif"
         android:gravity="center"
         android:visibility="gone"
-        android:paddingTop="20dp"
-        />
+        android:paddingTop="20dp" />
 
 </LinearLayout>

@@ -13,16 +13,28 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.annotation.NonNull;
+import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.app006.R;
+import com.example.app006.adapters.LeaveHistoryAdapter;
+import com.example.app006.models.LeaveHistory;
+import com.google.android.material.button.MaterialButton;
+import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.Query;
-import com.google.firebase.firestore.QuerySnapshot;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Collections;
+import java.util.Date;
 import java.util.HashMap;
+import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 
 public class LeaveManagementFragment extends Fragment {
@@ -30,11 +42,20 @@ public class LeaveManagementFragment extends Fragment {
     private EditText leaveReason;
     private Button startDateButton, endDateButton, applyLeaveButton;
     private TextView leaveStatus;
-    private TextView approvedCountText, pendingCountText, rejectedCountText;  // TextViews to display counts
     private String startDate, endDate;
     private FirebaseFirestore db;
     private SharedPreferences sharedPreferences;
     private String employeeEmail;
+    private RecyclerView rvLeaveHistory;
+    private LeaveHistoryAdapter adapter;
+    private List<LeaveHistory> leaveList = new ArrayList<>();
+    private List<LeaveHistory> visibleLeaveList = new ArrayList<>();
+    private final SimpleDateFormat firestoreDateFormat = new SimpleDateFormat("yyyy-MM-dd", Locale.getDefault());
+
+    private Date selectedStartDate, selectedEndDate;
+    private boolean isExpanded = false;
+
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -45,16 +66,14 @@ public class LeaveManagementFragment extends Fragment {
         endDateButton = view.findViewById(R.id.end_date_button);
         applyLeaveButton = view.findViewById(R.id.apply_leave_button);
         leaveStatus = view.findViewById(R.id.leave_status);
-
-        // Leave status counts
-        approvedCountText = view.findViewById(R.id.approved_count);
-        pendingCountText = view.findViewById(R.id.pending_count);
-        rejectedCountText = view.findViewById(R.id.rejected_count);
+        rvLeaveHistory = view.findViewById(R.id.rv_leave_history);
+        rvLeaveHistory.setLayoutManager(new LinearLayoutManager(getContext()));
+        adapter = new LeaveHistoryAdapter(visibleLeaveList);
+        rvLeaveHistory.setAdapter(adapter);
 
         db = FirebaseFirestore.getInstance();
         sharedPreferences = requireActivity().getSharedPreferences("LeavePrefs", Context.MODE_PRIVATE);
 
-        // Fetch email from SharedPreferences
         SharedPreferences loginPrefs = requireActivity().getSharedPreferences("LoginPrefs", Context.MODE_PRIVATE);
         employeeEmail = loginPrefs.getString("email", "");
 
@@ -63,15 +82,27 @@ public class LeaveManagementFragment extends Fragment {
             return view;
         }
 
-        // Load leave data
         loadLeaveData();
-
-        // Fetch leave request counts
-        fetchLeaveRequestCounts();
+        fetchCurrentLeaveStatus();
+        loadLeaveHistory();
 
         startDateButton.setOnClickListener(v -> openDatePicker(true));
         endDateButton.setOnClickListener(v -> openDatePicker(false));
         applyLeaveButton.setOnClickListener(v -> applyLeave());
+
+        MaterialButton viewAllButton = view.findViewById(R.id.view_all_leaves_button);
+        viewAllButton.setOnClickListener(v -> {
+            if (!isExpanded) {
+                updateVisibleList(10);
+                isExpanded = true;
+                viewAllButton.setText("Showing Last 10 Leaves");
+            } else {
+                updateVisibleList(3);
+                isExpanded = false;
+                viewAllButton.setText("View All Leave History");
+            }
+        });
+
 
         return view;
     }
@@ -84,12 +115,17 @@ public class LeaveManagementFragment extends Fragment {
 
         DatePickerDialog datePickerDialog = new DatePickerDialog(getContext(),
                 (view, selectedYear, selectedMonth, selectedDay) -> {
-                    String selectedDate = selectedDay + "/" + (selectedMonth + 1) + "/" + selectedYear;
+                    Calendar selectedCal = Calendar.getInstance();
+                    selectedCal.set(selectedYear, selectedMonth, selectedDay);
+                    String formattedDate = firestoreDateFormat.format(selectedCal.getTime());
+
                     if (isStartDate) {
-                        startDate = selectedDate;
+                        selectedStartDate = selectedCal.getTime();
+                        startDate = formattedDate;
                         startDateButton.setText("Start Date: " + startDate);
                     } else {
-                        endDate = selectedDate;
+                        selectedEndDate = selectedCal.getTime();
+                        endDate = formattedDate;
                         endDateButton.setText("End Date: " + endDate);
                     }
                 }, year, month, day);
@@ -104,6 +140,7 @@ public class LeaveManagementFragment extends Fragment {
         }
 
         applyLeaveButton.setEnabled(false);
+
         Map<String, Object> leaveRequest = new HashMap<>();
         leaveRequest.put("employeeEmail", employeeEmail);
         leaveRequest.put("reason", reason);
@@ -119,13 +156,10 @@ public class LeaveManagementFragment extends Fragment {
                     Toast.makeText(getContext(), "Leave Applied Successfully!", Toast.LENGTH_SHORT).show();
                     applyLeaveButton.setEnabled(true);
 
-                    // Update the pending count after a successful leave application
-                    updatePendingCount();
-
-                    // Clear the leave reason, start date, and end date
                     leaveReason.setText("");
                     startDateButton.setText("Start Date");
                     endDateButton.setText("End Date");
+                    startDate = endDate = null;
                 })
                 .addOnFailureListener(e -> {
                     Log.e("LeaveManagement", "Error submitting leave: " + e.getMessage());
@@ -156,59 +190,117 @@ public class LeaveManagementFragment extends Fragment {
             endDateButton.setText("End Date: " + endDate);
         }
     }
-
-    // Fetch leave request counts from Firestore
-    private void fetchLeaveRequestCounts() {
+    private void fetchCurrentLeaveStatus() {
         db.collection("leave-requests")
                 .whereEqualTo("employeeEmail", employeeEmail)
                 .get()
-                .addOnCompleteListener(task -> {
-                    if (task.isSuccessful()) {
-                        QuerySnapshot querySnapshot = task.getResult();
-                        int approvedCount = 0;
-                        int pendingCount = 0;
-                        int rejectedCount = 0;
+                .addOnSuccessListener(querySnapshots -> {
+                    if (!querySnapshots.isEmpty()) {
+                        List<DocumentSnapshot> documents = querySnapshots.getDocuments();
 
-                        for (var document : querySnapshot) {
-                            String status = document.getString("status");
-                            if (status != null) {
-                                switch (status) {
-                                    case "Approved":
-                                        approvedCount++;
-                                        break;
-                                    case "Pending":
-                                        pendingCount++;
-                                        break;
-                                    case "Rejected":
-                                        rejectedCount++;
-                                        break;
-                                }
+                        // Sort manually by startDate descending
+                        documents.sort((doc1, doc2) -> {
+                            try {
+                                SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd", Locale.getDefault());
+                                Date d1 = sdf.parse(doc1.getString("startDate"));
+                                Date d2 = sdf.parse(doc2.getString("startDate"));
+                                return d2.compareTo(d1); // descending
+                            } catch (Exception e) {
+                                return 0;
                             }
-                        }
+                        });
 
-                        // Update TextViews with the counts
-                        approvedCountText.setText(" " + approvedCount);
-                        pendingCountText.setText(" " + pendingCount);
-                        rejectedCountText.setText(" " + rejectedCount);
+                        DocumentSnapshot latestDoc = documents.get(0);
+                        String status = latestDoc.getString("status");
+                        updateLeaveStatusUI(status);
                     } else {
-                        Log.e("LeaveManagement", "Error fetching leave requests: " + task.getException());
+                        updateLeaveStatusUI("no request");
                     }
+                })
+                .addOnFailureListener(e -> {
+                    updateLeaveStatusUI("error");
+                    Log.e("LeaveStatus", "Failed to fetch leave status", e);
                 });
     }
 
-    // Update the pending leave count
-    private void updatePendingCount() {
+
+
+    private void updateLeaveStatusUI(String status) {
+        String displayText;
+        int colorRes;
+
+        switch (status.toLowerCase()) {
+            case "approved":
+                displayText = "APPROVED";
+                colorRes = R.color.success_color;
+                break;
+            case "rejected":
+                displayText = "REJECTED";
+                colorRes = R.color.error_color;
+                break;
+            case "pending":
+                displayText = "PENDING";
+                colorRes = R.color.warning_color;
+                break;
+            case "no request":
+                displayText = "No current leave request";
+                colorRes = R.color.text_secondary2;
+                break;
+            case "error":
+                displayText = "Error fetching status";
+                colorRes = R.color.error_color;
+                break;
+            default:
+                displayText = "Unknown status";
+                colorRes = R.color.text_secondary2;
+                break;
+        }
+
+        leaveStatus.setText(displayText);
+        leaveStatus.setTextColor(ContextCompat.getColor(requireContext(), colorRes));
+    }
+
+    private void loadLeaveHistory() {
         db.collection("leave-requests")
                 .whereEqualTo("employeeEmail", employeeEmail)
-                .whereEqualTo("status", "Pending")
                 .get()
-                .addOnCompleteListener(task -> {
-                    if (task.isSuccessful()) {
-                        int pendingCount = task.getResult().size();
-                        pendingCountText.setText(" " + pendingCount);
-                    } else {
-                        Log.e("LeaveManagement", "Error fetching pending leave requests: " + task.getException());
+                .addOnSuccessListener(querySnapshots -> {
+                    leaveList.clear();
+                    for (DocumentSnapshot doc : querySnapshots) {
+                        LeaveHistory leave = doc.toObject(LeaveHistory.class);
+                        if (leave != null) leaveList.add(leave);
                     }
+
+                    // Sort by startDate descending
+                    SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd", Locale.getDefault());
+                    leaveList.sort((l1, l2) -> {
+                        try {
+                            Date d1 = sdf.parse(l1.getStartDate());
+                            Date d2 = sdf.parse(l2.getStartDate());
+                            return d2.compareTo(d1);
+                        } catch (Exception e) {
+                            return 0;
+                        }
+                    });
+
+                    // Initially load top 3
+                    updateVisibleList(3);
+                })
+                .addOnFailureListener(e -> {
+                    Log.e("LeaveHistory", "Firestore error: ", e);
+                    Toast.makeText(getContext(), "Error loading leave history", Toast.LENGTH_SHORT).show();
                 });
     }
+
+    private void updateVisibleList(int count) {
+        visibleLeaveList.clear();
+        int limit = Math.min(count, leaveList.size());
+        visibleLeaveList.addAll(leaveList.subList(0, limit));
+        adapter.notifyDataSetChanged();
+    }
+
+
+
+
 }
+

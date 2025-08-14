@@ -6,14 +6,15 @@
     android:layout_margin="12dp"
     card_view:cardCornerRadius="16dp"
     card_view:cardElevation="8dp"
-    android:backgroundTint="#FFFFFF">
+    card_view:cardBackgroundColor="@color/white2"
+    card_view:cardUseCompatPadding="true">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:background="@drawable/payroll_gradient_background"
-        android:padding="24dp">
+        android:padding="28dp">
 
         <!-- Header Section -->
         <LinearLayout
@@ -30,7 +31,7 @@
                 android:layout_weight="1"
                 android:text="Month Year"
                 android:textSize="20sp"
-                android:textColor="#1A1A1A"
+                android:textColor="@color/text_primary2"
                 android:textStyle="bold"
                 android:fontFamily="sans-serif-medium" />
 
@@ -62,7 +63,7 @@
                     android:layout_weight="1"
                     android:text="Basic Salary"
                     android:textSize="14sp"
-                    android:textColor="#666666"
+                    android:textColor="@color/text_secondary2"
                     android:fontFamily="sans-serif" />
 
                 <TextView
@@ -71,7 +72,7 @@
                     android:layout_height="wrap_content"
                     android:text="₹0.00"
                     android:textSize="16sp"
-                    android:textColor="#1A1A1A"
+                    android:textColor="@color/text_primary2"
                     android:textStyle="bold"
                     android:fontFamily="sans-serif-medium" />
             </LinearLayout>
@@ -88,7 +89,7 @@
                     android:layout_weight="1"
                     android:text="Allowance"
                     android:textSize="14sp"
-                    android:textColor="#666666"
+                    android:textColor="@color/text_secondary2"
                     android:fontFamily="sans-serif" />
 
                 <TextView
@@ -97,7 +98,7 @@
                     android:layout_height="wrap_content"
                     android:text="₹0.00"
                     android:textSize="16sp"
-                    android:textColor="#4CAF50"
+                    android:textColor="@color/success_color2"
                     android:textStyle="bold"
                     android:fontFamily="sans-serif-medium" />
             </LinearLayout>
@@ -114,7 +115,7 @@
                     android:layout_weight="1"
                     android:text="Deductions"
                     android:textSize="14sp"
-                    android:textColor="#666666"
+                    android:textColor="@color/text_secondary2"
                     android:fontFamily="sans-serif" />
 
                 <TextView
@@ -123,7 +124,7 @@
                     android:layout_height="wrap_content"
                     android:text="₹0.00"
                     android:textSize="16sp"
-                    android:textColor="#F44336"
+                    android:textColor="@color/warning_color"
                     android:textStyle="bold"
                     android:fontFamily="sans-serif-medium" />
             </LinearLayout>
@@ -140,7 +141,7 @@
                     android:layout_weight="1"
                     android:text="Bonus"
                     android:textSize="14sp"
-                    android:textColor="#666666"
+                    android:textColor="@color/text_secondary2"
                     android:fontFamily="sans-serif" />
 
                 <TextView
@@ -149,7 +150,7 @@
                     android:layout_height="wrap_content"
                     android:text="₹0.00"
                     android:textSize="16sp"
-                    android:textColor="#FF9800"
+                    android:textColor="@color/accent_color3"
                     android:textStyle="bold"
                     android:fontFamily="sans-serif-medium" />
             </LinearLayout>
@@ -176,7 +177,7 @@
                     android:layout_height="wrap_content"
                     android:text="Days Present"
                     android:textSize="12sp"
-                    android:textColor="#666666"
+                    android:textColor="@color/text_secondary2"
                     android:layout_marginBottom="4dp" />
 
                 <TextView
@@ -185,7 +186,7 @@
                     android:layout_height="wrap_content"
                     android:text="0"
                     android:textSize="18sp"
-                    android:textColor="#2196F3"
+                    android:textColor="@color/primary_blue"
                     android:textStyle="bold"
                     android:fontFamily="sans-serif-medium" />
             </LinearLayout>
@@ -204,7 +205,7 @@
                     android:layout_height="wrap_content"
                     android:text="Working Days"
                     android:textSize="12sp"
-                    android:textColor="#666666"
+                    android:textColor="@color/text_secondary2"
                     android:layout_marginBottom="4dp" />
 
                 <TextView
@@ -213,7 +214,7 @@
                     android:layout_height="wrap_content"
                     android:text="0"
                     android:textSize="18sp"
-                    android:textColor="#9C27B0"
+                    android:textColor="@color/accent_color3"
                     android:textStyle="bold"
                     android:fontFamily="sans-serif-medium" />
             </LinearLayout>
@@ -223,7 +224,8 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="#E0E0E0"
+            android:background="@color/text_secondary2"
+            android:alpha="0.3"
             android:layout_marginBottom="16dp" />
 
         <LinearLayout
@@ -240,7 +242,7 @@
                 android:layout_weight="1"
                 android:text="Net Pay"
                 android:textSize="18sp"
-                android:textColor="#1A1A1A"
+                android:textColor="@color/text_primary2"
                 android:textStyle="bold"
                 android:fontFamily="sans-serif-medium" />
 
@@ -250,9 +252,9 @@
                 android:layout_height="wrap_content"
                 android:text="₹0.00"
                 android:textSize="24sp"
-                android:textColor="#4CAF50"
+                android:textColor="@color/success_color2"
                 android:textStyle="bold"
-                android:fontFamily="sans-serif-black" />
+                android:fontFamily="sans-serif-medium" />
         </LinearLayout>
 
     </LinearLayout>

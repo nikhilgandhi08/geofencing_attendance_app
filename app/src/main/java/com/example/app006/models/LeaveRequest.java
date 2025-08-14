@@ -1,5 +1,7 @@
 package com.example.app006.models;
 
+import java.util.Date;
+
 public class LeaveRequest {
     private String requestId; // Unique ID for the request
     private String employeeEmail;
@@ -7,13 +9,15 @@ public class LeaveRequest {
     private String startDate;
     private String endDate;
     private String status; // Pending, Approved, Rejected
+    private Date timestamp; // <-- this is important
+
 
     public LeaveRequest() {
         // Default constructor required for Firebase or serialization
     }
 
     public LeaveRequest(String requestId, String employeeEmail, String reason,
-                        String startDate, String endDate, String status) {
+                        String startDate, String endDate, String status, Date timestamp) {
         this.requestId = requestId;
         this.employeeEmail = employeeEmail;
         this.reason = reason;
@@ -21,6 +25,7 @@ public class LeaveRequest {
         this.endDate = endDate;
         this.status = status;
     }
+
 
     public String getRequestId() {
         return requestId;
@@ -69,4 +74,6 @@ public class LeaveRequest {
     public void setStatus(String status) {
         this.status = status;
     }
+
+
 }

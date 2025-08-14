@@ -264,6 +264,8 @@
     <string name="employee_activity_icon">Employee Activity Icon</string>
     <string name="avg_work_hours_icon">Average work hours icon</string>
     <string name="work_hours_chart">Work hours chart</string>
+    <string name="approved_leaves">Approved Leaves\n</string>
+    <string name="rejected_leaves">Rejected Leaves\n</string>
 
 
     <string-array name="user_types">
