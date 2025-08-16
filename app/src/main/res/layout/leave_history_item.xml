@@ -63,6 +63,6 @@
         android:paddingHorizontal="12dp"
         android:paddingVertical="6dp"
         android:background="@drawable/ripple_background"
-        android:backgroundTint="@color/grey"
+        android:backgroundTint="@color/divider_color"
         android:textColor="@color/white" />
 </LinearLayout>

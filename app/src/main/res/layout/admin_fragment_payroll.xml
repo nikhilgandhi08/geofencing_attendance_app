@@ -5,188 +5,278 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="20dp"
-    android:background="#0D0D0D">
+    android:background="@color/surface_color">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        app:cardCornerRadius="24dp"
-        app:cardElevation="32dp"
-        app:cardBackgroundColor="#FF1E1E1E">
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        app:cardUseCompatPadding="true"
+        app:cardBackgroundColor="@color/card_background_light">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="858dp"
+            android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="35dp">
+            android:padding="28dp">
 
-            <!-- Title -->
-            <TextView
-                android:id="@+id/tv_title"
+            <!-- Title Section -->
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="24dp"
-                android:gravity="center"
-                android:letterSpacing="0.05"
-                android:text="Generate Payroll"
-                android:textColor="#FFFFFFFF"
-                android:textSize="28sp"
-                android:textStyle="bold" />
+                android:orientation="horizontal"
+                android:layout_marginBottom="28dp"
+                android:gravity="center_vertical">
 
-            <!-- Select Employee -->
-            <TextView
+                <View
+                    android:layout_width="4dp"
+                    android:layout_height="28dp"
+                    android:background="@color/primary_blue"
+                    android:layout_marginEnd="12dp" />
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Generate Payroll"
+                    android:textColor="@color/text_primary2"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+            <!-- Employee Selection Section -->
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:text="Select Employee"
-                android:textColor="@android:color/white"
-                android:textSize="16sp"
-                android:textStyle="bold" />
+                android:orientation="vertical"
+                android:background="@drawable/ripple_background"
+                android:padding="16dp"
+                android:layout_marginBottom="20dp">
 
-            <Spinner
-                android:id="@+id/spinner_employee"
-                android:layout_width="match_parent"
-                android:layout_height="46dp"
-                android:layout_marginBottom="16dp"
-                android:background="#FF2C2C2C"
-                android:padding="12dp"
-                android:textColor="@android:color/holo_green_dark" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="Select Employee"
+                    android:textColor="@color/text_primary2"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-medium" />
 
-            <!-- Select Month -->
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:text="Select Month and Year"
-                android:textColor="#FFFFFFFF"
-                android:textSize="16sp"
-                android:textStyle="bold" />
+                <Spinner
+                    android:id="@+id/spinner_employee"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="12dp"
+                    android:background="@drawable/ripple_background"
+                    android:padding="12dp" />
 
-            <EditText
-                android:id="@+id/editText_month_year"
-                android:layout_width="match_parent"
-                android:layout_height="46dp"
-                android:layout_marginBottom="16dp"
-                android:background="#FF2C2C2C"
-                android:clickable="true"
-                android:focusable="false"
-                android:hint="e.g. June 2025"
-                android:inputType="none"
-                android:padding="12dp"
-                android:textColor="#FFFFFFFF"
-                android:textColorHint="#FF757575" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="Select Month and Year"
+                    android:textColor="@color/text_primary2"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-medium" />
 
-            <!-- Input Fields -->
-            <EditText
-                android:id="@+id/editText_basic_salary"
-                android:layout_width="match_parent"
-                android:layout_height="46dp"
-                android:layout_marginBottom="12dp"
-                android:background="#FF2C2C2C"
-                android:hint="Basic Salary (₹)"
-                android:inputType="numberDecimal"
-                android:padding="12dp"
-                android:textColor="#FFFFFFFF"
-                android:textColorHint="#FF757575" />
+                <EditText
+                    android:id="@+id/editText_month_year"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/ripple_background"
+                    android:clickable="true"
+                    android:focusable="false"
+                    android:hint="e.g. June 2025"
+                    android:inputType="none"
+                    android:padding="12dp"
+                    android:textColor="@color/text_primary2"
+                    android:textColorHint="@color/text_secondary2"
+                    android:fontFamily="sans-serif" />
 
-            <EditText
-                android:id="@+id/editText_allowance"
-                android:layout_width="match_parent"
-                android:layout_height="46dp"
-                android:layout_marginBottom="12dp"
-                android:background="#FF2C2C2C"
-                android:hint="Allowance (₹)"
-                android:inputType="numberDecimal"
-                android:padding="12dp"
-                android:textColor="#FFFFFFFF"
-                android:textColorHint="#FF757575" />
+            </LinearLayout>
 
-            <EditText
-                android:id="@+id/editText_deduction"
-                android:layout_width="match_parent"
-                android:layout_height="46dp"
-                android:layout_marginBottom="12dp"
-                android:background="#FF2C2C2C"
-                android:hint="Deductions (₹)"
-                android:inputType="numberDecimal"
-                android:padding="12dp"
-                android:textColor="#FFFFFFFF"
-                android:textColorHint="#FF757575" />
-
-            <EditText
-                android:id="@+id/editText_bonus"
-                android:layout_width="match_parent"
-                android:layout_height="46dp"
-                android:layout_marginBottom="20dp"
-                android:background="#FF2C2C2C"
-                android:hint="Bonus (₹)"
-                android:inputType="numberDecimal"
-                android:padding="12dp"
-                android:textColor="#FFFFFFFF"
-                android:textColorHint="#FF757575" />
-
-            <!-- New Fields: Days Present and Total Working Days -->
-            <EditText
-                android:id="@+id/editText_days_present"
-                android:layout_width="match_parent"
-                android:layout_height="46dp"
-                android:layout_marginBottom="12dp"
-                android:background="#FF2C2C2C"
-                android:hint="Days Present"
-                android:inputType="number"
-                android:padding="12dp"
-                android:textColor="#FFFFFFFF"
-                android:textColorHint="#FF757575" />
-
-            <EditText
-                android:id="@+id/editText_total_working_days"
-                android:layout_width="match_parent"
-                android:layout_height="46dp"
-                android:layout_marginBottom="20dp"
-                android:background="#FF2C2C2C"
-                android:hint="Total Working Days"
-                android:inputType="number"
-                android:padding="12dp"
-                android:textColor="#FFFFFFFF"
-                android:textColorHint="#FF757575" />
-
-            <!-- Attendance Display -->
-            <TextView
-                android:id="@+id/text_total_days"
+            <!-- Salary Details Section -->
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="12dp"
-                android:text="Total Working Days: -"
-                android:textColor="#FFFFFFFF"
-                android:textSize="16sp" />
+                android:orientation="vertical"
+                android:background="@drawable/ripple_background"
+                android:padding="16dp"
+                android:layout_marginBottom="20dp">
 
-            <!-- Net Salary -->
-            <TextView
-                android:id="@+id/text_net_salary"
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:text="Salary Components"
+                    android:textColor="@color/text_primary2"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-medium" />
+
+                <EditText
+                    android:id="@+id/editText_basic_salary"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="12dp"
+                    android:background="@android:color/transparent"
+                    android:hint="Basic Salary (₹)"
+                    android:inputType="numberDecimal"
+                    android:padding="12dp"
+                    android:textColor="@color/text_primary2"
+                    android:textColorHint="@color/text_secondary2"
+                    android:fontFamily="sans-serif" />
+
+                <EditText
+                    android:id="@+id/editText_allowance"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="12dp"
+                    android:background="@android:color/transparent"
+                    android:hint="Allowance (₹)"
+                    android:inputType="numberDecimal"
+                    android:padding="12dp"
+                    android:textColor="@color/text_primary2"
+                    android:textColorHint="@color/text_secondary2"
+                    android:fontFamily="sans-serif" />
+
+                <EditText
+                    android:id="@+id/editText_deduction"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="12dp"
+                    android:background="@android:color/transparent"
+                    android:hint="Deductions (₹)"
+                    android:inputType="numberDecimal"
+                    android:padding="12dp"
+                    android:textColor="@color/text_primary2"
+                    android:textColorHint="@color/text_secondary2"
+                    android:fontFamily="sans-serif" />
+
+                <EditText
+                    android:id="@+id/editText_bonus"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@android:color/transparent"
+                    android:hint="Bonus (₹)"
+                    android:inputType="numberDecimal"
+                    android:padding="12dp"
+                    android:textColor="@color/text_primary2"
+                    android:textColorHint="@color/text_secondary2"
+                    android:fontFamily="sans-serif" />
+
+            </LinearLayout>
+
+            <!-- Attendance Section -->
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
-                android:text="Net Pay: ₹ -"
-                android:textColor="#FF4CAF50"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+                android:orientation="vertical"
+                android:background="@drawable/ripple_background"
+                android:padding="16dp"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:text="Attendance Details"
+                    android:textColor="@color/text_primary2"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-medium" />
+
+                <EditText
+                    android:id="@+id/editText_days_present"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="12dp"
+                    android:background="@android:color/transparent"
+                    android:hint="Days Present"
+                    android:inputType="number"
+                    android:padding="12dp"
+                    android:textColor="@color/text_primary2"
+                    android:textColorHint="@color/text_secondary2"
+                    android:fontFamily="sans-serif" />
+
+                <EditText
+                    android:id="@+id/editText_total_working_days"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="12dp"
+                    android:background="@android:color/transparent"
+                    android:hint="Total Working Days"
+                    android:inputType="number"
+                    android:padding="12dp"
+                    android:textColor="@color/text_primary2"
+                    android:textColorHint="@color/text_secondary2"
+                    android:fontFamily="sans-serif" />
+
+                <TextView
+                    android:id="@+id/text_total_days"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Total Working Days: -"
+                    android:textColor="@color/text_secondary2"
+                    android:textSize="14sp"
+                    android:fontFamily="sans-serif" />
+
+            </LinearLayout>
+
+            <!-- Net Salary Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@drawable/ripple_background"
+                android:padding="16dp"
+                android:layout_marginBottom="28dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Net Pay"
+                    android:textSize="18sp"
+                    android:textColor="@color/text_primary2"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-medium" />
+
+                <TextView
+                    android:id="@+id/text_net_salary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="₹ -"
+                    android:textColor="@color/success_color2"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-medium" />
+
+            </LinearLayout>
 
             <!-- Generate Button -->
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_generate_payroll"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:layout_marginTop="10dp"
-                android:backgroundTint="#FF3F51B5"
-                android:letterSpacing="0.1"
-                android:padding="12dp"
+                android:layout_height="56dp"
                 android:text="Generate Payroll"
-                android:textAllCaps="false"
-                android:textColor="#FFFFFFFF"
                 android:textSize="16sp"
                 android:textStyle="bold"
-                app:cornerRadius="100dp" />
+                android:textColor="@color/white2"
+                android:fontFamily="sans-serif-medium"
+                android:letterSpacing="0.05"
+                app:backgroundTint="@color/primary_blue"
+                app:cornerRadius="12dp"
+                android:elevation="4dp" />
 
         </LinearLayout>
 

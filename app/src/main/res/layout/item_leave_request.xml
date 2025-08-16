@@ -1,66 +1,118 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:padding="12dp"
-    android:background="@android:color/white"
-    android:elevation="2dp">
-
-    <TextView
-        android:id="@+id/tv_employee_email"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Employee Email"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        android:textColor="@color/black" />
-
-    <TextView
-        android:id="@+id/tv_reason"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Leave Reason"
-        android:textSize="14sp"
-        android:textColor="@android:color/darker_gray"
-        android:layout_marginTop="4dp" />
-
-    <TextView
-        android:id="@+id/tv_date_range"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Start Date - End Date"
-        android:textSize="14sp"
-        android:textColor="@android:color/darker_gray"
-        android:layout_marginTop="4dp" />
+    android:layout_margin="12dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="8dp"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="@color/card_background_light">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="end"
-        android:layout_marginTop="8dp">
+        android:orientation="vertical"
+        android:padding="28dp">
 
-        <Button
-            android:id="@+id/btn_approve"
-            android:layout_width="wrap_content"
+        <!-- Header Section with Employee Email -->
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Approve"
-            android:textSize="14sp"
-            android:backgroundTint="@color/black"
-            android:textColor="@android:color/white"
-            android:padding="8dp"
-            android:layout_marginEnd="8dp"/>
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_vertical">
 
-        <Button
-            android:id="@+id/btn_reject"
-            android:layout_width="wrap_content"
+            <View
+                android:layout_width="4dp"
+                android:layout_height="28dp"
+                android:background="@color/primary_blue"
+                android:layout_marginEnd="12dp" />
+
+
+
+            <TextView
+                android:id="@+id/tv_employee_email"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Employee Email"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary2"
+                android:fontFamily="sans-serif-medium" />
+
+        </LinearLayout>
+
+        <!-- Leave Details Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Reject"
-            android:textSize="14sp"
-            android:backgroundTint="@color/red"
-            android:textColor="@android:color/white"
-            android:padding="8dp"/>
+            android:orientation="vertical"
+            android:background="@drawable/ripple_background"
+            android:padding="16dp"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:id="@+id/tv_reason"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Leave Reason"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary2"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/tv_date_range"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start Date - End Date"
+                android:textSize="14sp"
+                android:textColor="@color/text_secondary2"
+                android:fontFamily="sans-serif" />
+
+        </LinearLayout>
+
+        <!-- Action Buttons Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_approve"
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:text="Approve"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/white2"
+                android:fontFamily="sans-serif-medium"
+                android:letterSpacing="0.05"
+                app:backgroundTint="@color/success_color2"
+                app:cornerRadius="12dp"
+                android:elevation="4dp"
+                android:layout_marginEnd="12dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_reject"
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:text="Reject"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/white2"
+                android:fontFamily="sans-serif-medium"
+                android:letterSpacing="0.05"
+                app:backgroundTint="@color/error_color"
+                app:cornerRadius="12dp"
+                android:elevation="4dp" />
+
+        </LinearLayout>
+
     </LinearLayout>
 
-</LinearLayout>
+</androidx.cardview.widget.CardView>
