@@ -22,48 +22,6 @@ This Android application simplifies employee attendance and performance tracking
 
 ---
 
-## 🗂️ Project Structure
-app/
-│
-├── java/com/example/app006/
-│ ├── admin/
-│ │ ├── Adapters/
-│ │ ├── Models/
-│ │ └── Fragments/
-│ │ ├── EmployeeManagementFragment.java
-│ │ ├── HomeFragment.java
-│ │ ├── LeaveManagementFragment.java
-│ │ ├── LiveTrackingFragment.java
-│ │ ├── PayrollFragment.java
-│ │ ├── RecentActivityFragment.java
-│ │ ├── ReportsFragment.java
-│ │ └── SetGeofenceFragment.java
-│ │
-│ ├── employee/
-│ │ ├── Adapters/
-│ │ ├── Models/
-│ │ └── Fragments/
-│ │ ├── DashboardFragment.java
-│ │ ├── EmployeeManagementFragment.java
-│ │ ├── HomeFragment.java
-│ │ ├── LeaveManagementFragment.java
-│ │ └── LiveTrackingFragment.java
-│
-├── res/
-│ ├── layout/ # XML UI layouts
-│ ├── drawable/ # Custom buttons, icons, ripple effects
-│ ├── values/
-│ │ ├── colors.xml # Centralized color palette
-│ │ ├── strings.xml # String resources
-│ │ └── themes.xml # App theming
-│
-├── AndroidManifest.xml
-└── build.gradle
-
-
-
----
-
 ## 🔧 Technologies Used
 
 - **Language**: Java (v17)
@@ -110,6 +68,7 @@ Mihir Gawade
 Atharva Bharambe
 Suyash Bhanwase
 Nikhil Gandhi
+
 
 
 ---
