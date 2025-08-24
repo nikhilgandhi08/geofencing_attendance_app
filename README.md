@@ -74,7 +74,7 @@ Developed by final-year Computer Engineering students at **NBN Sinhgad Technical
 <a href="https://github.com/suyash-username">
   <img src="https://avatars.githubusercontent.com/suyash-username" width="60px" style="border-radius:50%;" />
 </a>
-<a href="https://github.com/nikhil-username">
+<a href="https://github.com/nikhilgandhi08">
   <img src="https://avatars.githubusercontent.com/nikhil-username" width="60px" style="border-radius:50%;" />
 </a>
 
@@ -87,4 +87,5 @@ Developed by final-year Computer Engineering students at **NBN Sinhgad Technical
 
 
 ---
+
 
