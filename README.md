@@ -75,7 +75,7 @@ Developed by final-year Computer Engineering students at **NBN Sinhgad Technical
   <img src="https://avatars.githubusercontent.com/suyash-username" width="60px" style="border-radius:50%;" />
 </a>
 <a href="https://github.com/nikhilgandhi08">
-  <img src="https://avatars.githubusercontent.com/nikhil-username" width="60px" style="border-radius:50%;" />
+  <img src="https://avatars.githubusercontent.com/nikhilgandhi08" width="60px" style="border-radius:50%;" />
 </a>
 
 - [Mihir Gawade](https://github.com/mihir-mihir-gawade)  
@@ -87,5 +87,6 @@ Developed by final-year Computer Engineering students at **NBN Sinhgad Technical
 
 
 ---
+
 
 
