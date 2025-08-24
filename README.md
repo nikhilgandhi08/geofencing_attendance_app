@@ -61,14 +61,30 @@ This Android application simplifies employee attendance and performance tracking
 
 ---
 
-## 🤝 Contributors
+## 🤝 Contributors  
 
-Developed by final-year Computer Engineering students at NBN Sinhgad Technical Institute Campus, Pune.
-Mihir Gawade
-Atharva Bharambe
-Suyash Bhanwase
-Nikhil Gandhi
+Developed by final-year Computer Engineering students at **NBN Sinhgad Technical Institute Campus, Pune**  
+
+<a href="https://github.com/mihir-mihir-gawade">
+  <img src="https://avatars.githubusercontent.com/mihir-mihir-gawade" width="60px" style="border-radius:50%;" />
+</a>
+<a href="https://github.com/atharvabharambe">
+  <img src="https://avatars.githubusercontent.com/atharvabharambe" width="60px" style="border-radius:50%;" />
+</a>
+<a href="https://github.com/suyash-username">
+  <img src="https://avatars.githubusercontent.com/suyash-username" width="60px" style="border-radius:50%;" />
+</a>
+<a href="https://github.com/nikhil-username">
+  <img src="https://avatars.githubusercontent.com/nikhil-username" width="60px" style="border-radius:50%;" />
+</a>
+
+- [Mihir Gawade](https://github.com/mihir-mihir-gawade)  
+- [Atharva Bharambe](https://github.com/atharvabharambe)  
+- [Suyash Bhanwase](https://github.com/suyash-username)  
+- [Nikhil Gandhi](https://github.com/nikhilgandhi08)  
+
 
 
 
 ---
+
