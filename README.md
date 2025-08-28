@@ -1,4 +1,4 @@
-# Geofencing-Based Attendance System
+# Geofencing Based Attendance System
 
 This Android application simplifies employee attendance and performance tracking through geofencing and Firebase integration. It offers two user roles — **Admin** and **Employee** — each with a set of dedicated features to streamline attendance management, leave tracking, and performance analysis.
 
@@ -87,6 +87,7 @@ Developed by final-year Computer Engineering students at **NBN Sinhgad Technical
 
 
 ---
+
 
 
 
